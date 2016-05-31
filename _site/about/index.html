@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>About</title>
+  <meta name="description" content="The thought of machine..." />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  
+  <meta property="og:site_name" content="Code" />
+  <meta property="og:title" content="About"/>
+  
+  <meta property="og:description" content="The thought of machine..." />
+  
+  <meta property="og:image" content="http://clementtph.com/assets/images/ct_logo.jpg" />
+  <meta property="og:url" content="http://clementtph.com/about/" >
+  <meta property="og:type" content="blog" />
+  
+
+  <link rel="canonical" href="http://clementtph.com/about/"/>
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+</head>
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+<a href="http://clementtph.com" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/ct_logo.jpg)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">About</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url()">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person"></h4>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <section class="post-content">
+          <a name="topofpage"></a>
+          <h1 id="hello">Hello</h1>
+<p>I am Clement, a junior who is currently studying Computer Engineering at the University of Minnesota, Twin Cities.</p>
+
+<p>I am from Malaysia, a place located at Southeast Asia, bordered by Thailand, Indonesia, and Brunei and shares water boundaries with Singapore, Vietnam, and Philippines.</p>
+
+<p>I speak 3 different languages, which are English, Mandarin and Bahasa Malaysia.</p>
+
+<p>I am interested in software development. This interests of mine lead me to the path of Computer Engineering. This path allows me to develop teamwork and help others to solve problems as there are a lots of challenging groups projects.  </p>
+
+<p>When I am not a programmer, I try to be a good photo editor.</p>
+
+<blockquote>
+  <p>“Together we can face any challenges as deep as the ocean and as high as the sky” - Sonia Gandhi</p>
+</blockquote>
+
+        </section>
+      </article>
+    </main>
+    <!-- footer start -->
+
+<footer class="site-footer">
+    <div class="inner">
+         <section class="copyright">&copy; 2016 <a href="mailto:clementtph@gmail.com">Clement Tan</a> &bull; Powered by Jekyll using the Mediator Theme.</section>
+         <div class="custom-links">
+           
+             
+                 <a class="icon-twitter" href="https://twitter.com/TPHClement"  title="Follow me on twitter">
+                   <i class="fa fa-twitter"></i>
+                 </a>
+                 &nbsp;&nbsp;·&nbsp;&nbsp;
+               
+           
+             
+                 <a class="icon-facebook" href="https://www.facebook.com/tan.clement.52"  title="Connect with me facebook">
+                   <i class="fa fa-facebook"></i>
+                 </a>
+                 &nbsp;&nbsp;·&nbsp;&nbsp;
+               
+           
+             
+                 <a class="icon-github" href="https://github.com/clementpeihengtan"  title="Fork me on github">
+                   <i class="fa fa-github"></i>
+                 </a>
+                 &nbsp;&nbsp;·&nbsp;&nbsp;
+               
+           
+             
+                 <a class="icon-instagram" href="https://www.instagram.com/tan_clement/"  title="Follow me on instagram">
+                   <i class="fa fa-instagram"></i>
+                 </a>
+                 &nbsp;&nbsp;·&nbsp;&nbsp;
+               
+           
+             
+                 <a class="icon-linkedin" href="https://www.linkedin.com/in/clement-pei-heng-tan-b84889105"  title="Add me on linkedin">
+                   <i class="fa fa-linkedin"></i>
+                 </a>
+                 &nbsp;&nbsp;·&nbsp;&nbsp;
+               
+           
+         </div>
+    </div>
+</footer>
+
+<!-- footer end -->
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+    
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+  });
+}(jQuery));
+</script>
+
+
+  </body>
+</html>
