@@ -9,7 +9,7 @@ When I was creating my website using Jekyll, I encountered some problem about in
 
 Today, I am going to share the way to install Ruby on Rails on Ubuntu using RVM.
 
-#Step1-Install RVM
+# Step1-Install RVM
 
 RVM stands for Ruby Version Manager. It helps to manage Ruby version independently and gives us an easy way to install Ruby. This command will help you to install latest version of RVM and also automatically download all required files and install on your system.
 
@@ -35,7 +35,7 @@ This command install all the dependencies for installing Ruby automatically on o
 $ rvm requirements
 {% endhighlight %}
 
-#Step2-Check the list of available Ruby Versions
+# Step2-Check the list of available Ruby Versions
 
 Use the following command to check the list of ruby available.
 
@@ -43,7 +43,7 @@ Use the following command to check the list of ruby available.
 $ rvm list known
 {% endhighlight %}
 
-#Step3-Install Ruby Version
+# Step3-Install Ruby Version
 
 Just write the version of Ruby you want to install and hit enter using the command below
 Right now, I am going to install Ruby version 2.2.4
@@ -52,7 +52,7 @@ Right now, I am going to install Ruby version 2.2.4
 $ rvm install 2.2.4
 {% endhighlight %}
 
-#Step4-Setup Ruby Version as Default
+# Step4-Setup Ruby Version as Default
 
 RVM command enable us to set up default Ruby version to our application.
 
@@ -70,7 +70,7 @@ This command change terminal emulator preferences to allow login shell
 
 And run the RVM command again.
 
-#Step5-Check Ruby Version
+# Step5-Check Ruby Version
 
 After you have set the default Ruby Version, you can check the version of Ruby you have now using the command below.
 
