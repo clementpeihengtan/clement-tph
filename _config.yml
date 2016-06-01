@@ -9,9 +9,9 @@ description: The thought of machine...
 
 email: clementtph.com
 #blog logo
-logo: "/clement-tph/assets/images/ct_logo.jpg"
+logo: "/assets/images/ct_logo.jpg"
 # blog cover
-cover: "/clement-tph/assets/images/desk.jpg"
+cover: "/assets/images/desk.jpg"
 
 name: 'Clement Tan'
 author: 'Clement Tan'
