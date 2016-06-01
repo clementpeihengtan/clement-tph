@@ -20,7 +20,7 @@ author: 'Clement Tan'
 paginate:	5
 
 url: "http://clementpeihengtan.github.io/clement-tph" # the base hostname & protocol for your site
-baseurl: ""
+baseurl: "/clement-tph"
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
