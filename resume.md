@@ -11,9 +11,9 @@ permalink: /resume/
 
 ## Education
 
-### Bachelor of Science, Computer Engineering
+### Bachelor of Science, Computer Science
 * **University of Minnesota - Twin Cities**
-* College of Science and Engineering, Sophomore
+* College of Science and Engineering, Junior
 
 ------------
 
