@@ -55,6 +55,12 @@ Besides coding, I also do some photo editing and design using Adobe Photoshop CS
 * Working with a team to develop program to control drone using C++ and Node.js.
 * We also designed codes to allow drone to move through motion sensing.   
 
+### Leader of High School Robotic Team
+**Malaysia**
+
+* Lead the school robotic team to compete in the state level Robotic Competition that is organized by Lego and Ministry of Education, Malaysia.
+* Lead the programming and builder team to come out with a robot prototype and programming algorithms.
+
 ### Publicity Officer for America University Program (AUP) Club
 **INTI International University - Malaysia**
 
