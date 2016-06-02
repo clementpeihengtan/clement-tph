@@ -56,7 +56,7 @@ Besides coding, I also do some photo editing and design using Adobe Photoshop CS
 * We also designed codes to allow drone to move through motion sensing.   
 
 ### Leader of High School Robotic Team
-**Malaysia**
+**Hwa Lian High School - Malaysia**
 
 * Lead the school robotic team to compete in the state level Robotic Competition that is organized by Lego and Ministry of Education, Malaysia.
 * Lead the programming and builder team to come out with a robot prototype and programming algorithms.
