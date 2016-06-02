@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-#Hello
+# Hello
 I am Clement, a junior who is currently studying Computer Engineering at the University of Minnesota, Twin Cities.
 
 I am from Malaysia, a place located at Southeast Asia, bordered by Thailand, Indonesia, and Brunei and shares water boundaries with Singapore, Vietnam, and Philippines.
