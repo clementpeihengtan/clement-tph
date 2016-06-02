@@ -14,15 +14,15 @@ Reference variable is a variable that refers to another variable or object that 
 
 It is actually a duplicate of a variable in a memory location. Therefore, you can access the value of the variable either through the original value or the reference variable.
 
-Reference cannot be later made to reference other objects once it is created  
+* Reference cannot be later made to reference other objects once it is created  
 
-References cannot be NULL
+* References cannot be NULL
 
 {% highlight ruby %}
 int &r = NULL; //this is wrong, give you error
 {% endhighlight %}
 
-Reference must be initialized when declared
+* Reference must be initialized when declared
 
 {% highlight ruby %}
 int x = 5;
@@ -34,9 +34,9 @@ int &r = x;
 
 First of all, we know that variable is actually a memory location, and this location has its own address. A pointer is a variable which takes an address of another variable.
 
-Pointers can be used to re-assigned
-Pointers can be null to indicate it is not pointing to any valid thing.
-Pointers need not to be initialized when it is declared.
+* Pointers can be used to re-assigned
+* Pointers can be null to indicate it is not pointing to any valid thing.
+* Pointers need not to be initialized when it is declared.
 
 Re-assigned pointer
 
