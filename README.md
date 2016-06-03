@@ -2,6 +2,8 @@ Jekyll themed website by Clement
 ========
 This is the github page repository that hold [my Jekyll site](https://clementpeihengtan.github.io/clement-tph). This is personal blog about my thoughts and experience about coding.
 
+Feel free to check out my other website, [clementpeihengtan.github.io](http://clementpeihengtan.github.io).
+
 This website is inspired by Jekyll blog theme, called mediator, [The Base](http://blog.base68.com). The basic idea came from the Ghost theme [Readium 2.0](http://www.svenread.com/readium-ghost-theme/).
 
 Screenshots
