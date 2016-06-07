@@ -42,8 +42,8 @@ Besides coding, I also do some photo editing and design using Adobe Photoshop CS
 **What I've learnt:**
 
 * Testing and revising codes passed down by previous tech assistant.
-* renew the layout of the websites, using CSS, JavaScript and JQuery.
-* moving data from server to server using MySQL.
+* Renew the layout of the websites, using CSS, JavaScript and JQuery.
+* Moving data from server to server using MySQL.
 
 -------------
 
