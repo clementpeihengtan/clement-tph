@@ -6,7 +6,7 @@ categories: mediator feature
 tags: featured
 image: /assets/article_images/2016-05-06-reference-and-pointer/night-view.jpg
 ---
-When it comes to C or C++, the most confusing parts are pointer and reference. Although it looks complicated, if you mastered them, they really helps a lot in programming as they are very powerful tools.  
+When it comes to C or C++, the most confusing parts are pointer and reference. Although it looks complicated, if you mastered them, they really help a lot in programming as they are very powerful tools.  
 
 # Reference
 
