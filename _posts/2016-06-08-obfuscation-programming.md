@@ -15,7 +15,7 @@ Obfuscation programming is usually used in encryption. How so? Obfuscation progr
 
 ## Guess what this code does?
 
-{% highlight ruby %}
+````
 (lambda _, __, ___, ____, _____, ______, _______, ________:
     getattr(
         __import__(True.__class__.__name__[_] + [].__class__.__name__[__]),
@@ -58,7 +58,7 @@ Obfuscation programming is usually used in encryption. How so? Obfuscation progr
         )
     )
 )
-{% endhighlight %}
+````
 
 It just simply print “Hello world!”!  Shocked? I bet you are. 
 
