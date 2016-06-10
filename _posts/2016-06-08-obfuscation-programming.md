@@ -64,4 +64,4 @@ Obfuscation programming is usually used in encryption. How so? Obfuscation progr
 
 It just simply print “Hello world!”!  Shocked? I bet you are. 
 
-This code is written by [Ben Kurtovic](https://benkurtovic.com/) for The International Obfuscated C Code Contest (IOCCC). 
+This code is written by **[Ben Kurtovic](https://benkurtovic.com/)** for The International Obfuscated C Code Contest (IOCCC). 
