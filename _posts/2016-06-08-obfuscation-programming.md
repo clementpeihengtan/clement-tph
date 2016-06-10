@@ -4,7 +4,7 @@ title:  "Obfuscation Programming"
 date:   2016-06-09
 categories: mediator feature
 tags: featured
-image: /assets/article_images/2016-05-06-reference-and-pointer/night-view.jpg
+image: /assets/article_images/2016-6-09-obfuscated-programming/obfuscation-programing.jpg
 ---
 
 Recently, I came across something interesting, which is the obfuscation programming. 
@@ -15,7 +15,7 @@ Obfuscation programming is usually used in encryption. How so? Obfuscation progr
 
 ## Guess what this code does?
 
-````
+{% hightlight %}
 (lambda _, __, ___, ____, _____, ______, _______, ________:
     getattr(
         __import__(True.__class__.__name__[_] + [].__class__.__name__[__]),
@@ -58,7 +58,7 @@ Obfuscation programming is usually used in encryption. How so? Obfuscation progr
         )
     )
 )
-````
+{% endhighlight %}
 
 It just simply print “Hello world!”!  Shocked? I bet you are. 
 
