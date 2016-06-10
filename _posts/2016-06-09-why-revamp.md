@@ -4,7 +4,7 @@ title:  "Why revamp?"
 date:   2016-06-07
 categories: mediator feature
 tags: featured
-image: /assets/article_images/2016-06-07-revamp/revamp.jpg
+image: /assets/article_images/2016-06-09-revamp/box-guy.jpeg
 ---
 
 If you guys have visited my [previous website](https://clementpeihengtan.github.io), you can see a huge difference between the website I am currently working on. There are three main reason, why I choose to create a new website.
