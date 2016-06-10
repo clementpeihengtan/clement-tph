@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Obfuscation Programming"
-date:   2016-06-09
+title: "Obfuscation Programming"
+date: 2016-06-09
 categories: mediator feature
-tags: featured
-image: /assets/article_images/2016-06-08-obfuscated-programming/obfuscation-programming.jpg
+image: /assets/article_images/2016-05-18-wysiwyg/street.jpg
 ---
 
 Recently, I came across something interesting, which is the obfuscation programming.
