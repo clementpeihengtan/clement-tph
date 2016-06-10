@@ -9,7 +9,7 @@ image: /assets/article_images/2016-06-08-obfuscated-programming/obfuscation-prog
 
 Recently, I came across something interesting, which is the obfuscation programming. 
 
-> What is obfuscation? Obfuscation is the practice of making something hard to understand.
+> **What is obfuscation?** Obfuscation is the practice of making something hard to understand.
 
 Obfuscation programming is usually used in encryption. How so? Obfuscation programming renames useful classes and variables, adding meaningless label to make it hard to be understand. This prevents cybercrime hacking into our device, since it is hard to decrypt this code. Only the person who creates the code know what they are doing. 
 
