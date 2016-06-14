@@ -10,7 +10,7 @@ permalink: /project/
 
 # Tic-Tac-Toe Game
 
-I guess everyone have heard of this game, ever wonder how to design this simple game using c++, check it out **[here]("https://github.com/clementpeihengtan/tic-tac-toe-game")**. This game supports 2 players for now and will be updated to have an AI mode.
+I guess everyone have heard of this game, ever wonder how to design this simple game using c++, check it out **[here](https://github.com/clementpeihengtan/tic-tac-toe-game)**. This game supports 2 players for now and will be updated to have an AI mode.
 
 # Simple Clock
 
