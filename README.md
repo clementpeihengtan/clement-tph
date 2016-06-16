@@ -6,12 +6,6 @@ Feel free to check out my other website, [clementpeihengtan.github.io](http://cl
 
 This website is inspired by Jekyll blog theme, called mediator, [The Base](http://blog.base68.com). The basic idea came from the Ghost theme [Readium 2.0](http://www.svenread.com/readium-ghost-theme/).
 
-Screenshots
---------
-![screenshot](/assets/images/screenshot1.jpg)
-![screenshot](/assets/images/screenshot2.jpg)
-![screenshot](/assets/images/screenshot3.jpg)
-
 Features
 -------
 * Fully Responsive layout
