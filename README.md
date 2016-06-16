@@ -1,6 +1,6 @@
 Jekyll themed website by Clement
 ========
-This is the github page repository that hold [my Jekyll site](http://clementpeihengtan.github.io/clement-tph). This is personal blog about my thoughts and experience about coding.
+This is the github page repository that holds [my Jekyll site](http://clementpeihengtan.github.io/clement-tph). This is personal blog about my thoughts and experience about coding.
 
 Feel free to check out my other website, [clementpeihengtan.github.io](http://clementpeihengtan.github.io).
 
