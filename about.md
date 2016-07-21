@@ -12,6 +12,7 @@ I speak 3 different languages, which are English, Mandarin and Bahasa Malaysia.
 
 I am interested in software development. This interests of mine lead me to the path of Computer Engineering. This path allows me to develop teamwork and help others to solve problems as there are a lots of challenging groups projects.  
 
+> “Together we can face any challenges as deep as the ocean and as high as the sky” - Sonia Gandhi
+
 When I am not a programmer, I try to be a good photo editor.
 
-> “Together we can face any challenges as deep as the ocean and as high as the sky” - Sonia Gandhi
