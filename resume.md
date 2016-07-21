@@ -19,7 +19,8 @@ permalink: /resume/
 
 ## Skills  
 
-I am experienced in HTML, CSS, JavaScript and PHP, familiar with Python, C, JAVA and C++, and less experience with SQL.
+I am experienced in HTML, CSS, JavaScript and PHP, familiar with C++, Python, C, JAVA and SQL. 
+I have been working with technologies like Microsoft Visual Studio, MySQL Workbench and Virtualbox. 
 Besides coding, I also do some photo editing and design using Adobe Photoshop CS6.
 
 ------------
@@ -35,9 +36,9 @@ Besides coding, I also do some photo editing and design using Adobe Photoshop CS
 
 **What I've done:**
 
-* Assist Web developer with support of multiple application and tools in differnet website
-* Carry out tasks that support web layout, design, troubleshooting, and development
-* Test the usablility of the lab's websites and assist various data entry
+* Assist Web developer with support of multiple application and tools in different website.
+* Carry out tasks that support web layout, design, troubleshooting, and development.
+* Test the usablility of the lab's websites and assist various data entry in SQL.
 
 **What I've learnt:**
 
