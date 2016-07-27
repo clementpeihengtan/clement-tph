@@ -41,12 +41,13 @@ Besides coding, I also do some photo editing and design using Adobe Photoshop CS
 * Assist Web developer with support of multiple application and tools in different website.
 * Carry out tasks that support web layout, design, troubleshooting, and development.
 * Test the usablility of the lab's websites and assist various data entry in SQL.
+* Created custom module for sepcific purposes, like sending automated email. 
 
 **What I've learnt:**
 
-* Testing and revising codes passed down by previous tech assistant.
-* Renew the layout of the websites, using CSS, JavaScript and JQuery.
-* Moving data from server to server using MySQL.
+* Managed different module in Drupal Development.
+* Renewed the layout of the websites, using CSS, JavaScript and JQuery.
+* Manipulate data using PHP and SQL. 
 
 -------------
 
