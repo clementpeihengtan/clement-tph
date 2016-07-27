@@ -19,9 +19,7 @@ permalink: /resume/
 
 ## Skills  
 
-I am experienced in HTML, CSS, JavaScript and PHP, familiar with C++, Python, C, JAVA and SQL. 
-I have been working with technologies like Microsoft Visual Studio, MySQL Workbench and Virtualbox. 
-Besides coding, I also do some photo editing and design using Adobe Photoshop CS6.
+I am experienced in HTML, CSS, JavaScript and PHP, familiar with Python, C, JAVA and C++, and less experience with SQL. Besides coding, I also do some photo editing and design using Adobe Photoshop CS6.
 
 ------------
 
