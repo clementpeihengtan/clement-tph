@@ -1,6 +1,6 @@
 # Build settings
 gems:
-   - jekyll-mentions
+  - jekyll-mentions
   - jemoji
   - jekyll-paginate
   - jekyll-redirect-from
