@@ -20,6 +20,7 @@ cover: "/assets/images/desk.jpg"
 
 name: 'Clement Tan'
 author: 'Clement Tan'
+disqus-shortname: CT
 # author_image: "/assets/images/author.jpg"
 
 paginate:	5
