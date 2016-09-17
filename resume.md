@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-<div markdown="1"> [(One-page, official resume)](https://drive.google.com/file/d/0Bwa-elB6ByDzZTN6cWNpSzNHUDA/view?usp=sharing)
+<div markdown="1"> [(One-page, official resume)](https://drive.google.com/a/umn.edu/file/d/0By64km_iO7zrYVp5YTZ0VE5HYTQ/view?usp=sharing)
 </div>
 
 ------------
