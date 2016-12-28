@@ -2,7 +2,6 @@
 layout: post
 title: "How to install Ruby in Ubuntu"
 date: 2016-05-27
-tags: featured
 image: /assets/article_images/2016-05-27-how-to-install-ruby-ubuntu/city.jpg
 ---
 When I was creating my website using Jekyll, I encountered some problem about installing Ruby in my machine. It’s kind of frustrated when you are stucked in a particular procedure and unable to proceed the next step.
