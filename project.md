@@ -5,7 +5,7 @@ permalink: /project/
 ---
 # Android App - Permutation Generator
 
-After learning android development for quite awhile, I decide to try to create a simple application which is this **[Permutation generator](https://github.com/clementpeihengtan/clement-tph/)**. By using the API's in android studio and some knowledge about algorithm and data structure. I created a user interface and function to produce the result. It is still new and won't be added to Google play yet.
+After learning android development for quite awhile, I decide to try to create a simple application which is this **[Permutation generator](https://github.com/clementpeihengtan/Permutation-Generator/)**. By using the API's in android studio and some knowledge about algorithm and data structure. I created a user interface and function to produce the result. It is still new and won't be added to Google play yet.
 
 # Tautology Checker
 
