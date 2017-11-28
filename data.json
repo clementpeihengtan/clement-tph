@@ -1,0 +1,9 @@
+[
+    { "_id" : { "$oid" : "5a1c95cfe3ed3894cd930c34" }, "id" : "1234ABCD", "time" : "12 July 2017 08:16:00", "temperature" : 75.3, "humidity" : 45 } ,
+    { "_id" : { "$oid" : "5a1c95cfe3ed3894cd930c35" }, "id" : "1234ABCD", "time" : "12 July 2017 08:15:00", "temperature" : 75.5, "humidity" : 40 } ,
+    { "_id" : { "$oid" : "5a1c95cfe3ed3894cd930c36" }, "id" : "1234ABCD", "time" : "12 July 2017 08:13:00", "temperature" : 75, "humidity" : 37 } ,
+    { "_id" : { "$oid" : "5a1c95cfe3ed3894cd930c37" }, "id" : "1234ABCD", "time" : "12 July 2017 08:17:00", "temperature" : 75.2, "humidity" : 41 } ,
+    { "_id" : { "$oid" : "5a1c95cfe3ed3894cd930c38" }, "id" : "1234ABCD", "time" : "12 July 2017 08:18:00", "temperature" : 74.8, "humidity" : 38 } ,
+    { "_id" : { "$oid" : "5a1c95cfe3ed3894cd930c39" }, "id" : "1234ABCD", "time" : "12 July 2017 08:14:00", "temperature" : 75.09999999999999, "humidity" : 39 } ,
+    { "_id" : { "$oid" : "5a1c95cfe3ed3894cd930c3a" }, "id" : "1234ABCD", "time" : "12 July 2017 08:19:00", "temperature" : 74.3, "humidity" : 39 }
+]
