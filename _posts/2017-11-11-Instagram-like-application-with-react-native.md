@@ -6,7 +6,7 @@ categories: mediator feature
 image: /assets/article_images/2017-11-11-instagram-like-app-with-react-native/react-native.jpeg
 ---
 
-This article is created to show people how to develop an Instagram like application with [React-native]("https://facebook.github.io/react-native/")
+This article is created to show people how to develop an Instagram like application with [React-native](https://facebook.github.io/react-native/)
 
 # What we will be building?
 
@@ -564,7 +564,7 @@ Upon completion, it will look like following when user click on different user n
 
 ## Profile.js
 
-Since this page is still in development phase, it is easy to show you guys how to create something like below using [native-base]("https://nativebase.io/")
+Since this page is still in development phase, it is easy to show you guys how to create something like below using [native-base](https://nativebase.io/)
 
 ![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profile.png?raw=true)
 
