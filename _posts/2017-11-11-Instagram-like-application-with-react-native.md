@@ -138,7 +138,7 @@ In the component directory, create a new file called <mark>Card.js</mark> that d
 
 The code will look like this
 
-{% highlight JavaScript %}
+```JavaScript
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
         marginBottom: 50
     }
 });
-{% endhighlight %}
+```
 
 And we are done for the component directory, just that easy!
 
