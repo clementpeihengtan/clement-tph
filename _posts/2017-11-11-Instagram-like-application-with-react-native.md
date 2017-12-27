@@ -137,7 +137,8 @@ First, create a directory called <mark>src</mark>. In the directory, create two 
 In the component directory, create a new file called <mark>Card.js</mark> that defines the container that display the user's image and information.
 
 The code will look like this
-{% highlight javascript %}
+
+{% highlight JavaScript %}
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {
