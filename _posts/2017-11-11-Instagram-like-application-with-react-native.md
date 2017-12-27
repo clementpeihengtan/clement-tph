@@ -62,7 +62,7 @@ After launch, press <kbd>&#8984;</kbd> <kbd>D</kbd> and select Enable Hot Reload
 
 Let's create some data as a sample for our application. We're going to store all the pictures data in one file to make thing easier. In real world situation, we will need to fetch data by using API. 
 
-- At your current directory create a file called <mark>data.json</mark> with the following content
+- At your current directory create a file called <mark class="mark">data.json</mark> with the following content
 
 ```json
 [
@@ -131,10 +131,10 @@ Let's create some data as a sample for our application. We're going to store all
 
 # Start Modifying the App
 
-First, create a directory called <mark>src</mark>. In the directory, create two new directories called <mark>components</mark> and <mark>tabs</mark>
+First, create a directory called <mark class="mark">src</mark>. In the directory, create two new directories called <mark class="mark">components</mark> and <mark class="mark">tabs</mark>
 
 ## Components
-In the component directory, create a new file called <mark>Card.js</mark> that defines the container that display the user's image and information.
+In the component directory, create a new file called <mark class="mark">Card.js</mark> that defines the container that display the user's image and information.
 
 The code will look like this
 
@@ -241,14 +241,14 @@ And we are done for the component directory, just that easy!
 ## Tabs
 
 Tabs directory will contains every pages in the application, which include 
-- <mark>Home.js</mark> - Home page
-- <mark>Profiles.js</mark> - Each user's profile
-- <mark>Profile.js</mark> - The current user's profile
+- <mark class="mark">Home.js</mark> - Home page
+- <mark class="mark">Profiles.js</mark> - Each user's profile
+- <mark class="mark">Profile.js</mark> - The current user's profile
 
 # Main page - App.js
 Before we start modifying the tabs directory, we first need to create the basic of the application, which is the foundation that will assist in the navigation between different pages. 
 
-- Open your <mark>App.js</mark> file
+- Open your <mark class="mark">App.js</mark> file
 - The first thing that we need to do, is import all the necessary modules
 
 ```JavaScript 
@@ -324,7 +324,7 @@ export default App;
 ## Home.js
 Now we have completed the basis, we can now proceed to work on the tabs
 
-- Open the <mark>Home.js</mark> file and write the code below
+- Open the <mark class="mark">Home.js</mark> file and write the code below
 
 ```JavaScript
 import React, {Component} from 'react';
@@ -385,7 +385,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-This file will handle creating a srollable view of list of <mark>Cards</mark> that we created previously. Upon completion, it will look like below
+This file will handle creating a srollable view of list of <mark class="mark">Cards</mark> that we created previously. Upon completion, it will look like below
 
 ![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/home.png?raw=true)
 
