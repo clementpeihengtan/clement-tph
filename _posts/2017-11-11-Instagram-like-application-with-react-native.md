@@ -14,7 +14,7 @@ We are going to build an instagram like application using react native and this 
 
 ![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/react-app-votepic.gif?raw=true)
 
-Although this application is not yet completed, for your reference, the code for this app I am building is available in this [Github repo]("https://github.com/clementpeihengtan/votepic")
+Although this application is not yet completed, for your reference, the code for this app I am building is available in this [Github repo](https://github.com/clementpeihengtan/votepic)
 
 # Let's Get Started
 
