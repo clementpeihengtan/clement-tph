@@ -12,7 +12,7 @@ This article is created to show people how to develop an Instagram like applicat
 
 We are going to build an instagram like application using react native and this is how it is going to look like.
 
-![image](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/react-app-votepic.gif)
+![image](/assets/article_images/2017-11-11-instagram-like-app-with-react-native/react-app-votepic.gif)
 
 Although this application is not yet completed, for your reference, the code for this app I am building is available in this [Github repo]("https://github.com/clementpeihengtan/votepic")
 
