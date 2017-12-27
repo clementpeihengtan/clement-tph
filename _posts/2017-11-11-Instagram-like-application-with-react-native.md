@@ -12,7 +12,7 @@ This article is created to show people how to develop an Instagram like applicat
 
 We are going to build an instagram like application using react native and this is how it is going to look like.
 
-![image]("https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/react-app-votepic.gif")
+![image](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/react-app-votepic.gif)
 
 Although this application is not yet completed, for your reference, the code for this app I am building is available in this [Github repo]("https://github.com/clementpeihengtan/votepic")
 
@@ -324,6 +324,7 @@ export default App;
 Now we have completed the basis, we can now proceed to work on the tabs
 
 - Open the <mark>Home.js</mark> file and write the code below
+
 ```JavaScript
 import React, {Component} from 'react';
 import {
@@ -382,9 +383,10 @@ const styles = StyleSheet.create({
     }
 });
 ```
+
 This file will handle creating a srollable view of list of <mark>Cards</mark> that we created previously. Upon completion, it will look like below
 
-![images]("https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/home.png")
+![images](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/home.png)
 
 ## Profiles.js
 This page will be responsible in creating and displaying each user profile, based on what the current user has clicked.
@@ -556,14 +558,14 @@ const styles = StyleSheet.create({
 
 Upon completion, it will look like following when user click on different user name in the Home page.
 
-![imaegs]("https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profiles.png")
+![imaegs](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profiles.png)
 
 
 ## Profile.js
 
 Since this page is still in development phase, it is easy to show you guys how to create something like below using [native-base]("https://nativebase.io/")
 
-![images]("https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profile.png")
+![images](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profile.png)
 
 ```JavaScript
 import React, {Component} from 'react';
