@@ -12,7 +12,7 @@ This article is created to show people how to develop an Instagram like applicat
 
 We are going to build an instagram like application using react native and this is how it is going to look like.
 
-![image](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/react-app-votepic.gif?raw=true)
+![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/react-app-votepic.gif?raw=true)
 
 Although this application is not yet completed, for your reference, the code for this app I am building is available in this [Github repo]("https://github.com/clementpeihengtan/votepic")
 
@@ -137,7 +137,7 @@ First, create a directory called <mark>src</mark>. In the directory, create two 
 In the component directory, create a new file called <mark>Card.js</mark> that defines the container that display the user's image and information.
 
 The code will look like this
-```JavaScript
+{% highlight javascript %}
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import {
@@ -233,7 +233,7 @@ const styles = StyleSheet.create({
         marginBottom: 50
     }
 });
-```
+{% endhighlight %}
 
 And we are done for the component directory, just that easy!
 
@@ -386,7 +386,7 @@ const styles = StyleSheet.create({
 
 This file will handle creating a srollable view of list of <mark>Cards</mark> that we created previously. Upon completion, it will look like below
 
-![images](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/home.png?raw=true)
+![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/home.png?raw=true)
 
 ## Profiles.js
 This page will be responsible in creating and displaying each user profile, based on what the current user has clicked.
@@ -558,14 +558,14 @@ const styles = StyleSheet.create({
 
 Upon completion, it will look like following when user click on different user name in the Home page.
 
-![imaegs](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profiles.png?raw=true)
+![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profiles.png?raw=true)
 
 
 ## Profile.js
 
 Since this page is still in development phase, it is easy to show you guys how to create something like below using [native-base]("https://nativebase.io/")
 
-![images](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profile.png?raw=true)
+![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profile.png?raw=true)
 
 ```JavaScript
 import React, {Component} from 'react';
