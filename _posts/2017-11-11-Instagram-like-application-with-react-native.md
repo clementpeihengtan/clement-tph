@@ -386,7 +386,7 @@ const styles = StyleSheet.create({
 
 This file will handle creating a srollable view of list of <mark>Cards</mark> that we created previously. Upon completion, it will look like below
 
-![images](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/home.png)
+![images](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/home.png?raw=true)
 
 ## Profiles.js
 This page will be responsible in creating and displaying each user profile, based on what the current user has clicked.
@@ -558,14 +558,14 @@ const styles = StyleSheet.create({
 
 Upon completion, it will look like following when user click on different user name in the Home page.
 
-![imaegs](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profiles.png)
+![imaegs](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profiles.png?raw=true)
 
 
 ## Profile.js
 
 Since this page is still in development phase, it is easy to show you guys how to create something like below using [native-base]("https://nativebase.io/")
 
-![images](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profile.png)
+![images](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profile.png?raw=true)
 
 ```JavaScript
 import React, {Component} from 'react';
