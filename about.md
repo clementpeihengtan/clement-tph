@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 # Hello
-I am Clement, a rising junior who is currently studying Computer Science at the University of Minnesota, Twin Cities.
+I am Clement, a senior year student who is currently studying Computer Science at the University of Minnesota, Twin Cities.
 
 I am from Malaysia, a place located at Southeast Asia, bordered by Thailand, Indonesia, and Brunei and shares water boundaries with Singapore, Vietnam, and Philippines.
 
