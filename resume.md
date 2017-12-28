@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-<div markdown="1"> [(One-page, official resume)](https://drive.google.com/file/d/0By64km_iO7zrOGR3cnZGVENFaGc/view?usp=sharing)
+<div markdown="1"> [(One-page, official resume)](https://drive.google.com/file/d/1W8BJSOvk74d_1fVBrSvf4BuJLpGCkr8j/view?usp=sharing)
 </div>
 
 ------------
@@ -13,15 +13,15 @@ permalink: /resume/
 
 ### Bachelor of Science, Computer Science
 * **University of Minnesota - Twin Cities**
-* College of Science and Engineering, Junior
+* College of Science and Engineering, Senior
 
 ------------
 
 ## Skills  
 
-I am experienced in C++, JavaScript, JQuery, HTML, CSS and PHP, familiar with Python, C, JAVA and SQL.
+I am experienced in C#, Java and JavaScript. I have been working with technologies like Microsoft Visual Studio, Microsoft Visual Studio, MySQL Workbench. 
 
-I have been working with technologies like Microsoft Visual Studio, MySQL Workbench and Virtualbox. 
+I also self learnt different JavaScript Framework, from Node.js, React.js, Express.js and D3.js. I have created IOS application and Web application using React.js which are available on my Github. 
 
 Besides coding, I also do some photo editing and design using Adobe Photoshop CS6.
 
@@ -29,6 +29,50 @@ Besides coding, I also do some photo editing and design using Adobe Photoshop CS
 
 ## Work Experience    
 
+### Software Developer
+
+* **Colectica**
+* Minneapolis, Minnesota
+* September 2017 - Present
+
+**What I've done:**
+
+* Created ASP.NET MVC web application to provide an interactive graphical user interface to
+convert SPS data to JSON.
+* Dockerize ASP.NET web application using Docker for testing and increase the reliability of the
+web application.
+* Developed web REST API to receive GET request and convert request body from SPS to JSON.
+* Integrated responsive UI and new functionality with C# for data validation in window
+application that adhere to WPF(Window Presentation Foundation).
+
+**What I've learnt:**
+
+* MVC Controller in ASP.NET web application
+* Docker to dockerize C# application
+* REST API 
+* Develop UX/UI in Visual Studio
+
+### Software Developer Intern
+
+* **Colectica**
+* Minneapolis, Minnesota
+* May 2017 - September 2017
+
+**What I've done:**
+
+* Developed software using C# that allow user to publish survey model in variety of format
+including JSON, XML, OWL/RDF and GraphQL.
+* Created custom JSON serializer that generate a universal JSON schema for different customers.
+* Created a web application in ASP.NET that allow user to search for research documents that are stored in MySQL Database.
+* Systematically developed and tested software with version control and xUnit.NET test as well as created and maintained documentation.
+* Migrates company production websites from Drupal platform to Wyam.
+
+**What I've learnt**
+
+* Basic about C#
+* Creating console application in C#
+* Develop unit test and functional test using XUnit
+* Develop ASP.Net web application
 
 ### Student Tech Support
 

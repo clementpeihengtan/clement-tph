@@ -3,6 +3,15 @@ layout: page
 title: Projects
 permalink: /project/
 ---
+
+# Votepic - Instagram like IOS application
+
+Using React Native to create a mobile application that display a collection of pictures with owner's information. For more information read my [tutorial](https://clementpeihengtan.github.io/clement-tph/mediator/feature/2017/11/11/Instagram-like-application-with-react-native.html) here.
+
+# Web Application - with React.js, Express.js and MongoDb
+
+Web application that display data from mongodb database and creating graphing using D3.js. To get more information about the web application, [Click here](https://clementpeihengtan.github.io/clement-tph/mediator/feature/2017/11/15/web-application-with-react.html)
+
 # Android App - Permutation Generator
 
 After learning android development for quite awhile, I decide to try to create a simple application which is this **[Permutation generator](https://github.com/clementpeihengtan/Permutation-Generator/)**. By using the API's in android studio and some knowledge about algorithm and data structure. I created a user interface and function to produce the result. It is still new and won't be added to Google play yet.
