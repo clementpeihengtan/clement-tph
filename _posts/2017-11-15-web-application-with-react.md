@@ -3,7 +3,7 @@ layout: post
 title:  "Web Application with React.js, Express.js and MongoDB"
 date:   2017-11-15
 categories: mediator feature
-image: /assets/article_images/2017-11-11-instagram-like-app-with-react-native/web-app-background.jpg
+image: /assets/article_images/2017-11-15-web-application-with-react/web-app-background.jpg
 ---
 
 I recently came across a design and implementation question, the problem is as below:
