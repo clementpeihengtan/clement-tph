@@ -25,8 +25,7 @@ disqus-shortname: clementpeihengtan
 
 paginate:	5
 
-url: "https://clementpeihengtan.github.io/clement-tph" # the base hostname & protocol for your site
-baseurl: "/clement-tph"
+url: "http://clementtph.com" # the base hostname & protocol for your site
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
