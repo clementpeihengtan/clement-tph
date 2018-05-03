@@ -50,6 +50,7 @@ body
   background-color: #4A4A4A
   overflow: hidden
   z-index: 99
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important  
   .logo
     display: block
     position: absolute
@@ -59,6 +60,22 @@ body
     height: $rs*2
     background-size: cover
     background-repeat: no-repeat
+
+@keyframes slideInFromBottom
+  from 
+    top: -10px
+    opacity: 0
+  to 
+    top: -60px
+    opacity: 1
+
+@keyframes titleInFromBottom 
+  from 
+    margin-top: 100px
+    opacity: 0
+  to 
+    margin-top: 0px
+    opacity: 1
 
 .teaserimage
   height: 450px
@@ -101,6 +118,7 @@ body
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3)
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3)
     box-shadow: 0 1px 1px rgba(0,0,0,0.3)
+    animation: 1s ease-out slideInFromBottom
   .blog-title
     margin: 0
     padding: $rs*5.25 $rs $rs/2
@@ -112,6 +130,7 @@ body
     line-height: 50px
     word-break: break-word
     color: #333
+    animation: 1s ease-out titleInFromBottom
   .blog-description
     margin: 0 0 20px
     padding: 0 $rs*2

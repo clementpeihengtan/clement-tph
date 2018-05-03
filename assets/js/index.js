@@ -16,6 +16,9 @@
             wordCountTarget: '.post-word-count',
         });
         
+        $('.teaserimage').hide(0).fadeIn(2000);
+        $('.article-image').hide(0).fadeIn(2000);
+
         // Creates Captions from Alt tags
         $(".post-content img").each(function() {
             // Let's put a caption if there is one
