@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title>Reference and Pointer</title>
-  <meta name="description" content="When it comes to C or C++, the most confusing parts are pointer and reference. Although it looks complicated, if you mastered them, they really helps a lot in programming as they are very powerful ..." />
+  <meta name="description" content="When it comes to C or C++, the most confusing parts are pointer and reference. Although it looks complicated, if you mastered them, they really help a lot in programming as they are very powerful t..." />
 
   <meta name="HandheldFriendly" content="True" />
   <meta name="MobileOptimized" content="320" />
@@ -19,7 +19,7 @@
   <meta property="og:site_name" content="Code" />
   <meta property="og:title" content="Reference and Pointer"/>
   
-  <meta property="og:description" content="When it comes to C or C++, the most confusing parts are pointer and reference. Although it looks complicated, if you mastered them, they really helps a lot in programming as they are very powerful ..." />
+  <meta property="og:description" content="When it comes to C or C++, the most confusing parts are pointer and reference. Although it looks complicated, if you mastered them, they really help a lot in programming as they are very powerful t..." />
   
   <meta property="og:image" content="http://clementtph.com/assets/article_images/2016-05-06-reference-and-pointer/night-view.jpg" />
   <meta property="og:url" content="http://clementtph.com/mediator/feature/2016/05/06/reference-and-pointer.html" >
@@ -38,7 +38,7 @@
   <body itemscope itemtype="http://schema.org/Article">
     <!-- header start -->
 
-<a href="http://clementtph.com" class="logo-readium"><span class="logo" style="background-image: url(/assets/images/ct_logo.jpg)"></span></a>
+<a href="http://clementtph.com" class="logo-readium"><span class="logo" style="background-image: url(http://clementtph.com/assets/images/ct_logo.jpg)"></span></a>
 
 <!-- header end -->
 
@@ -46,16 +46,16 @@
       <article class="post">
         
         <div class="article-image">
-          <div class="post-image-image" style="background-image: url(/assets/article_images/2016-05-06-reference-and-pointer/night-view.jpg)">
+          <div class="post-image-image" style="background-image: url(http://clementtph.com/assets/article_images/2016-05-06-reference-and-pointer/night-view.jpg)">
             Article Image
           </div>
-          <div class="post-image-image2" style="background-image: url()">
+          <div class="post-image-image2" style="background-image: url(http://clementtph.com/assets/article_images/2016-05-06-reference-and-pointer/night-view.jpg)">
             Article Image
           </div>
           <div class="post-meta">
             <h1 class="post-title">Reference and Pointer</h1>
             <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url()">Blog Logo</div>
+              <div class="author-image" style="background-image: url(/assets/images/myProfile.jpg)">Blog Logo</div>
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Clement Tan</h4>
               on
               <time datetime="2016-05-06 00:00">06 May 2016</time>
@@ -72,33 +72,46 @@
             <span class="post-reading-time"></span> read
           </div>
           <a name="topofpage"></a>
-          <p>When it comes to C or C++, the most confusing parts are pointer and reference. Although it looks complicated, if you mastered them, they really helps a lot in programming as they are very powerful tools.  </p>
+          <p>When it comes to C or C++, the most confusing parts are pointer and reference. Although it looks complicated, if you mastered them, they really help a lot in programming as they are very powerful tools.</p>
 
-<p>Reference variable is a variable that refers to another variable or object that is existed in your program.  </p>
+<h1 id="reference">Reference</h1>
+
+<p>Reference variable is a variable that refers to another variable or object that is existed in your program.</p>
 
 <p>It is actually a duplicate of a variable in a memory location. Therefore, you can access the value of the variable either through the original value or the reference variable.</p>
 
-<p>Reference cannot be later made to reference other objects once it is created  </p>
+<ul>
+  <li>
+    <p>Reference cannot be later made to reference other objects once it is created</p>
+  </li>
+  <li>
+    <p>References cannot be NULL</p>
+  </li>
+</ul>
 
-<p>References cannot be NULL</p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">int</span> <span class="o">&amp;</span><span class="n">r</span> <span class="o">=</span> <span class="no">NULL</span><span class="p">;</span> <span class="sr">//</span><span class="n">this</span> <span class="n">is</span> <span class="n">wrong</span><span class="p">,</span> <span class="n">give</span> <span class="n">you</span> <span class="n">error</span></code></pre></figure>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">int</span> <span class="o">&amp;</span><span class="n">r</span> <span class="o">=</span> <span class="no">NULL</span><span class="p">;</span> <span class="sr">//</span><span class="n">this</span> <span class="n">is</span> <span class="n">wrong</span><span class="p">,</span> <span class="n">give</span> <span class="n">you</span> <span class="n">error</span></code></pre></div>
+<ul>
+  <li>Reference must be initialized when declared</li>
+</ul>
 
-<p>Reference must be initialized when declared</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
 <span class="n">int</span> <span class="n">y</span> <span class="o">=</span><span class="mi">9</span><span class="p">;</span>
-<span class="n">int</span> <span class="o">&amp;</span><span class="n">r</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span></code></pre></div>
+<span class="n">int</span> <span class="o">&amp;</span><span class="n">r</span> <span class="o">=</span> <span class="n">x</span><span class="p">;</span></code></pre></figure>
+
+<h1 id="pointer">Pointer</h1>
 
 <p>First of all, we know that variable is actually a memory location, and this location has its own address. A pointer is a variable which takes an address of another variable.</p>
 
-<p>Pointers can be used to re-assigned
-Pointers can be null to indicate it is not pointing to any valid thing.
-Pointers need not to be initialized when it is declared.</p>
+<ul>
+  <li>Pointers can be used to re-assigned</li>
+  <li>Pointers can be null to indicate it is not pointing to any valid thing.</li>
+  <li>Pointers need not to be initialized when it is declared.</li>
+</ul>
 
 <p>Re-assigned pointer</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">6</span><span class="p">;</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">int</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">6</span><span class="p">;</span>
 <span class="n">int</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">7</span><span class="p">;</span>
 <span class="n">int</span> <span class="o">*</span><span class="n">k</span><span class="p">;</span>  <span class="sr">//</span> <span class="n">a</span> <span class="n">null</span> <span class="n">pointer</span>
 <span class="n">k</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">;</span>
@@ -106,10 +119,25 @@ Pointers need not to be initialized when it is declared.</p>
 <span class="o">*</span><span class="n">k</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
 
 <span class="n">assert</span><span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="mi">6</span><span class="p">);</span>
-<span class="n">assert</span><span class="p">(</span><span class="n">y</span> <span class="o">==</span> <span class="mi">7</span><span class="p">);</span></code></pre></div>
+<span class="n">assert</span><span class="p">(</span><span class="n">y</span> <span class="o">==</span> <span class="mi">7</span><span class="p">);</span></code></pre></figure>
 
 
         </section>
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'clementpeihengtan'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + 'disqus_shortname' + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+            
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         
       </article>
     </main>
@@ -117,7 +145,7 @@ Pointers need not to be initialized when it is declared.</p>
 
 <footer class="site-footer">
     <div class="inner">
-         <section class="copyright">&copy; 2016 <a href="mailto:clementtph@gmail.com">Clement Tan</a> &bull; Powered by Jekyll using the Mediator Theme.</section>
+         <section class="copyright">&copy; 2018 <a href="mailto:clementtph@gmail.com">Clement Tan</a> &bull; Powered by Jekyll using the Mediator Theme.</section>
          <div class="custom-links">
            
              

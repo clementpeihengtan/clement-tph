@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Web Application with React.js, Express.js and MongoDB</title>
+  <meta name="description" content="I recently came across a design and implementation question, the problem is as below:" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  
+  <meta property="og:site_name" content="Code" />
+  <meta property="og:title" content="Web Application with React.js, Express.js and MongoDB"/>
+  
+  <meta property="og:description" content="I recently came across a design and implementation question, the problem is as below:" />
+  
+  <meta property="og:image" content="http://clementtph.com/assets/article_images/2017-11-15-web-application-with-react/web-app-background.jpg" />
+  <meta property="og:url" content="http://clementtph.com/mediator/feature/2017/11/15/web-application-with-react.html" >
+  <meta property="og:type" content="blog" />
+  <meta property="article:published_time" content="2017-11-15T00:00:00-06:00">
+
+  <link rel="canonical" href="http://clementtph.com/mediator/feature/2017/11/15/web-application-with-react.html"/>
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+</head>
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+<a href="http://clementtph.com" class="logo-readium"><span class="logo" style="background-image: url(http://clementtph.com/assets/images/ct_logo.jpg)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="article-image">
+          <div class="post-image-image" style="background-image: url(http://clementtph.com/assets/article_images/2017-11-15-web-application-with-react/web-app-background.jpg)">
+            Article Image
+          </div>
+          <div class="post-image-image2" style="background-image: url(http://clementtph.com/assets/article_images/2017-11-15-web-application-with-react/web-app-background.jpg)">
+            Article Image
+          </div>
+          <div class="post-meta">
+            <h1 class="post-title">Web Application with React.js, Express.js and MongoDB</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/assets/images/myProfile.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Clement Tan</h4>
+              on
+              <time datetime="2017-11-15 00:00">15 Nov 2017</time>
+              <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
+            </div>
+            <div style="text-align:center">
+              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <p>I recently came across a design and implementation question, the problem is as below:</p>
+
+<blockquote>
+  <p>Design and implement a web application that collects local weather data from a simulated IoT device via
+a REST API. The web application should save the data in a database and display it in an interactive
+visualization. Assume the IoT device reports the device ID, timestamp, temperature, and humidity.
+Assume new data is available every 60 seconds.</p>
+</blockquote>
+
+<h1 id="lets-analyze-these-problem">Let’s analyze these problem:</h1>
+
+<p>Design and implement a web application that collects local weather data from a simulated IoT device via a REST API.</p>
+
+<ul>
+  <li>The web application should save the data in a database and display it in an interactive visualization.</li>
+  <li>Assume the IoT device reports the device ID, timestamp, temperature, and humidity.</li>
+  <li>Assume new data is available every 60 seconds.</li>
+</ul>
+
+<p>These are the major requirements that will affect the choice of framework that I am going to use.</p>
+
+<h1 id="analysis-result">Analysis Result</h1>
+
+<p>Based on the requirement, I have to decide which framework should I used to develop the web application.</p>
+
+<h2 id="front-end">Front end</h2>
+<ul>
+  <li><strong>Options</strong>: React, AngularJS</li>
+  <li><strong>My choice</strong>: React</li>
+  <li><strong>Reason</strong>: React has better performance than Angular due to React’s implementation of virutal DOM. The web application I am designing require constantly updating user interface from the database. With React, this increase the efficiency of rendering the web app, as it only rerun the part that we make changes.</li>
+</ul>
+
+<h2 id="back-end">Back end</h2>
+<ul>
+  <li><strong>Options</strong>: express.js, meteor.js</li>
+  <li><strong>My choice</strong>: express.js</li>
+  <li><strong>Reason</strong>: Meteor provides full stack development framework for developer which means backend development framework is also available. However, some of the libraries are stopped develop and maintain by the community, which will cause inconvenient in the future. Since I have decided to use react as my front end framework, why bother working with meteor which provide full stack framework. Plus express.js is much more light weighted than meteor.js.</li>
+</ul>
+
+<h2 id="databases">Databases</h2>
+<ul>
+  <li><strong>Options</strong>: mongodb, MySQL</li>
+  <li><strong>My Choice</strong>: mongodb</li>
+  <li><strong>Reason</strong>: We know that the database going to grow very large as time goes as every 60 seconds new data will be obtained and stored in database. And we will need to constantly read and write from the database in order to do so and to update the UI. Mongodb is what we looking for. It has the capability to store large volumes of data. And since in 75F, Cloud services is very important to process the data. Mongodb can load high volume of data and givve us lots of flexibility and availability in a cloud based environment. It has built in sharding solutions that make it easy to partition and spread out data across multiple servers. It is also easy to scale the database to connect ot other hardware or in cloud without the need of additional software.</li>
+</ul>
+
+<h1 id="result">Result</h1>
+<p>Before we run the API server that gets the data from mongoDB server, we try run the web application by using the following command</p>
+
+<pre><code class="language-Shell">$ npm install
+$ npm start
+</code></pre>
+
+<p>We will get this at <a href="http://localhost:3000">http://localhost:3000</a></p>
+
+<p><img src="https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-15-web-application-with-react/Before-server.png?raw=true" alt="" /></p>
+
+<p>After running the server by running the command below</p>
+
+<pre><code class="language-Shell">$ node server.js
+</code></pre>
+
+<p>We will be able to see the result being populated in the website and the graph is being created</p>
+
+<p><img src="https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-15-web-application-with-react/After-server.png?raw=true" alt="" /></p>
+
+<p>We can get a look at the data from mongodb at <a href="http://localhost:3001/api/data">http://localhost:3001/api/data</a> which look like this</p>
+
+<p><img src="https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-15-web-application-with-react/api.png?raw=true" alt="" /></p>
+
+<p>For more details about the code. Look at my <a href="https://github.com/clementpeihengtan/Weather_App">repo</a> on Github.</p>
+
+        </section>
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'clementpeihengtan'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + 'disqus_shortname' + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+            
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        
+      </article>
+    </main>
+    <!-- footer start -->
+
+<footer class="site-footer">
+    <div class="inner">
+         <section class="copyright">&copy; 2018 <a href="mailto:clementtph@gmail.com">Clement Tan</a> &bull; Powered by Jekyll using the Mediator Theme.</section>
+         <div class="custom-links">
+           
+             
+                 <a class="icon-twitter" href="https://twitter.com/TPHClement"  title="Follow me on twitter">
+                   <i class="fa fa-twitter"></i>
+                 </a>
+                 &nbsp;&nbsp;·&nbsp;&nbsp;
+               
+           
+             
+                 <a class="icon-facebook" href="https://www.facebook.com/tan.clement.52"  title="Connect with me facebook">
+                   <i class="fa fa-facebook"></i>
+                 </a>
+                 &nbsp;&nbsp;·&nbsp;&nbsp;
+               
+           
+             
+                 <a class="icon-github" href="https://github.com/clementpeihengtan"  title="Fork me on github">
+                   <i class="fa fa-github"></i>
+                 </a>
+                 &nbsp;&nbsp;·&nbsp;&nbsp;
+               
+           
+             
+                 <a class="icon-instagram" href="https://www.instagram.com/tan_clement/"  title="Follow me on instagram">
+                   <i class="fa fa-instagram"></i>
+                 </a>
+                 &nbsp;&nbsp;·&nbsp;&nbsp;
+               
+           
+             
+                 <a class="icon-linkedin" href="https://www.linkedin.com/in/clement-pei-heng-tan-b84889105"  title="Add me on linkedin">
+                   <i class="fa fa-linkedin"></i>
+                 </a>
+                 &nbsp;&nbsp;·&nbsp;&nbsp;
+               
+           
+         </div>
+    </div>
+</footer>
+
+<!-- footer end -->
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+    
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+  });
+}(jQuery));
+</script>
+
+
+  </body>
+</html>

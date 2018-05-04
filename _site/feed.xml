@@ -3,11 +3,941 @@
   <channel>
     <title>Code</title>
     <description>The thought of machine...</description>
-    <link>http://clementtph.com/</link>
+    <link>http://clementtph.com</link>
     <atom:link href="http://clementtph.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 29 May 2016 15:56:08 -0500</pubDate>
-    <lastBuildDate>Sun, 29 May 2016 15:56:08 -0500</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Fri, 04 May 2018 12:17:36 -0500</pubDate>
+    <lastBuildDate>Fri, 04 May 2018 12:17:36 -0500</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>IMedtrainer - Perceptual Learning in Medical Images</title>
+        <description>&lt;h1 id=&quot;overview&quot;&gt;Overview&lt;/h1&gt;
+
+&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
+
+&lt;p&gt;This is a project from User Interface Design and Implementation’s class project(CSci5115), where I learned about the process of research process and research design. The project, IMedtrainer is inspired by human perceptual learning research conducted by our teammate, &lt;a href=&quot;https://www.researchgate.net/profile/Sha_Li38&quot;&gt;Sha Li&lt;/a&gt;. IMedtrainer aims to provide a mobile platform for medical student to perform practice in interpreting medical outside class period and curricular training.&lt;/p&gt;
+
+&lt;p&gt;This project is aim to help us learn through the research process and research design.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-role&quot;&gt;My Role&lt;/h2&gt;
+
+&lt;p&gt;I participate in interviews and conducted a couple of contextual inquiries. I also took part in the ideation processs by providing different ideas about the product design. when it comes to iterative design phase, I lead the team in designing sketches and creating a &lt;a href=&quot;https://marvelapp.com/pop/&quot;&gt;PopApp&lt;/a&gt; prototype. As well as leading the software development process in creating the mobile application.&lt;/p&gt;
+
+&lt;h2 id=&quot;duration&quot;&gt;Duration&lt;/h2&gt;
+
+&lt;p&gt;January 2018 - May 2018&lt;/p&gt;
+
+&lt;h2 id=&quot;project-team-member&quot;&gt;Project Team member&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sha Li&lt;/td&gt;
+      &lt;td&gt;YiHan Wu&lt;/td&gt;
+      &lt;td&gt;Ian Beh&lt;/td&gt;
+      &lt;td&gt;Joseph Dasuki&lt;/td&gt;
+      &lt;td&gt;Noah Biniek&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/IMedtrainerGif.gif?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;process&quot;&gt;Process&lt;/h2&gt;
+
+&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt;
+
+&lt;p&gt;Diagnosis of diseases has increasingly relied on interpretation of medical images, such as X-rays, CT, and mammograms. It takes a long time, usually multiple years, to train medical students to master this skill. Acquisition of expertise in medical imaging largely relies on experience in reading medical images. However, current-day medical students do not have access to large quantity of well-labeled medical images after class. In addition, lack of experts in this field makes it difficult for medical students to get sufficient feedback about their performance. Therefore, an educational application providing high-quality medical images with feedback will potentially accelerate learning of medical-image interpretation.&lt;/p&gt;
+
+&lt;h3 id=&quot;methods&quot;&gt;Methods&lt;/h3&gt;
+
+&lt;p&gt;We interviewed two radiology faculty members and three medical students at the University of Minnesota to gain a better understanding of typical radiology training objects and processes. We conducted half-hour structured interviews with audio recording and additional field note-taking. Participants were asked about their experiences with radiology training and/or general medical training. We also observed how participants interacted with an app demo. All audio records were transcribed, and analyzed to extract open codes which were clustered and selected during the qualitative analysis. The key features of our app were shaped by the functions to overcome current training challenges we discovered through our qualitative analysis.&lt;/p&gt;
+
+&lt;h3 id=&quot;affinity-mapping&quot;&gt;Affinity Mapping&lt;/h3&gt;
+
+&lt;p&gt;Based on the interviews and the contextual inquiries results, we conducted open mapping by taking time to group the users’ needs and clustering the idea into its own catorgory. Below are the result of our research:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/opencoding.png?raw=true&quot;&gt;&lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/opencoding.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We managed to categorize the open note into different clusters.&lt;/p&gt;
+
+&lt;div style=&quot;position: relative&quot;&gt;
+    &lt;div style=&quot;float: left; width: 33.33%; text-align:center;&quot;&gt;
+        &lt;img src=&quot;https://raw.githubusercontent.com/clementpeihengtan/clement-tph/gh-pages/assets/article_images/2018-05-02-imedtrainer/image_cluster.jpg&quot; /&gt;
+        &lt;p&gt;Imaging Cluster&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;float: left; width: 33.33%; text-align:center;&quot;&gt;
+        &lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/app_feature_cluster.jpg?raw=true&quot; /&gt;
+        &lt;p&gt;App Feature Cluster&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div style=&quot;float: left; width: 33.33%; text-align:center;&quot;&gt;
+        &lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/training_cluster.jpg?raw=true&quot; /&gt;
+        &lt;p&gt;Training Procedure Cluster&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!--#### Imaging Cluster--&gt;
+
+&lt;!--![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/image_cluster.png)--&gt;
+
+&lt;!--#### App Feature Cluster--&gt;
+
+&lt;!--![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/app_feature_cluster.jpg?raw=true)--&gt;
+
+&lt;!--#### Training Procedure Cluster--&gt;
+
+&lt;!--![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/training_cluster.jpg?raw=true)--&gt;
+
+&lt;h3 id=&quot;design-implication&quot;&gt;Design Implication&lt;/h3&gt;
+
+&lt;p&gt;We formulated 4 major design implications to keep us on track through out the development phase. The implications are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Offer student sufficient practice especially in interpreting medical images&lt;/li&gt;
+  &lt;li&gt;Shorten the training period or speed up the learning process&lt;/li&gt;
+  &lt;li&gt;Make the training easily accessible&lt;/li&gt;
+  &lt;li&gt;Emphasis on good feedbacks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ideation&quot;&gt;Ideation&lt;/h3&gt;
+
+&lt;p&gt;Based on the clusters and design implications, we conducted an ideation process where we listed down all the practical and wild ideas. We came out with more than 100 ideas. From there, we removed some of the unfeasible one and group them into different categories as shown below&lt;/p&gt;
+
+&lt;h3 id=&quot;prototype&quot;&gt;Prototype&lt;/h3&gt;
+
+&lt;h3 id=&quot;cognitive-walkthrough&quot;&gt;Cognitive Walkthrough&lt;/h3&gt;
+
+&lt;h3 id=&quot;final-design&quot;&gt;Final Design&lt;/h3&gt;
+
+</description>
+        <pubDate>Wed, 02 May 2018 00:00:00 -0500</pubDate>
+        <link>http://clementtph.com/mediator/feature/2018/05/02/IMedtrainer.html</link>
+        <guid isPermaLink="true">http://clementtph.com/mediator/feature/2018/05/02/IMedtrainer.html</guid>
+        
+        
+        <category>mediator</category>
+        
+        <category>feature</category>
+        
+      </item>
+    
+      <item>
+        <title>Web Application with React.js, Express.js and MongoDB</title>
+        <description>&lt;p&gt;I recently came across a design and implementation question, the problem is as below:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Design and implement a web application that collects local weather data from a simulated IoT device via
+a REST API. The web application should save the data in a database and display it in an interactive
+visualization. Assume the IoT device reports the device ID, timestamp, temperature, and humidity.
+Assume new data is available every 60 seconds.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;lets-analyze-these-problem&quot;&gt;Let’s analyze these problem:&lt;/h1&gt;
+
+&lt;p&gt;Design and implement a web application that collects local weather data from a simulated IoT device via a REST API.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The web application should save the data in a database and display it in an interactive visualization.&lt;/li&gt;
+  &lt;li&gt;Assume the IoT device reports the device ID, timestamp, temperature, and humidity.&lt;/li&gt;
+  &lt;li&gt;Assume new data is available every 60 seconds.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are the major requirements that will affect the choice of framework that I am going to use.&lt;/p&gt;
+
+&lt;h1 id=&quot;analysis-result&quot;&gt;Analysis Result&lt;/h1&gt;
+
+&lt;p&gt;Based on the requirement, I have to decide which framework should I used to develop the web application.&lt;/p&gt;
+
+&lt;h2 id=&quot;front-end&quot;&gt;Front end&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Options&lt;/strong&gt;: React, AngularJS&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;My choice&lt;/strong&gt;: React&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reason&lt;/strong&gt;: React has better performance than Angular due to React’s implementation of virutal DOM. The web application I am designing require constantly updating user interface from the database. With React, this increase the efficiency of rendering the web app, as it only rerun the part that we make changes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;back-end&quot;&gt;Back end&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Options&lt;/strong&gt;: express.js, meteor.js&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;My choice&lt;/strong&gt;: express.js&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reason&lt;/strong&gt;: Meteor provides full stack development framework for developer which means backend development framework is also available. However, some of the libraries are stopped develop and maintain by the community, which will cause inconvenient in the future. Since I have decided to use react as my front end framework, why bother working with meteor which provide full stack framework. Plus express.js is much more light weighted than meteor.js.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;databases&quot;&gt;Databases&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Options&lt;/strong&gt;: mongodb, MySQL&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;My Choice&lt;/strong&gt;: mongodb&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reason&lt;/strong&gt;: We know that the database going to grow very large as time goes as every 60 seconds new data will be obtained and stored in database. And we will need to constantly read and write from the database in order to do so and to update the UI. Mongodb is what we looking for. It has the capability to store large volumes of data. And since in 75F, Cloud services is very important to process the data. Mongodb can load high volume of data and givve us lots of flexibility and availability in a cloud based environment. It has built in sharding solutions that make it easy to partition and spread out data across multiple servers. It is also easy to scale the database to connect ot other hardware or in cloud without the need of additional software.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;result&quot;&gt;Result&lt;/h1&gt;
+&lt;p&gt;Before we run the API server that gets the data from mongoDB server, we try run the web application by using the following command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Shell&quot;&gt;$ npm install
+$ npm start
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We will get this at &lt;a href=&quot;http://localhost:3000&quot;&gt;http://localhost:3000&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-15-web-application-with-react/Before-server.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After running the server by running the command below&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-Shell&quot;&gt;$ node server.js
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We will be able to see the result being populated in the website and the graph is being created&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-15-web-application-with-react/After-server.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can get a look at the data from mongodb at &lt;a href=&quot;http://localhost:3001/api/data&quot;&gt;http://localhost:3001/api/data&lt;/a&gt; which look like this&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-15-web-application-with-react/api.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For more details about the code. Look at my &lt;a href=&quot;https://github.com/clementpeihengtan/Weather_App&quot;&gt;repo&lt;/a&gt; on Github.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Nov 2017 00:00:00 -0600</pubDate>
+        <link>http://clementtph.com/mediator/feature/2017/11/15/web-application-with-react.html</link>
+        <guid isPermaLink="true">http://clementtph.com/mediator/feature/2017/11/15/web-application-with-react.html</guid>
+        
+        
+        <category>mediator</category>
+        
+        <category>feature</category>
+        
+      </item>
+    
+      <item>
+        <title>Instagram Like Application With React Native</title>
+        <description>&lt;p&gt;This article is created to show people how to develop an Instagram like application with &lt;a href=&quot;https://facebook.github.io/react-native/&quot;&gt;React-native&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-we-will-be-building&quot;&gt;What we will be building?&lt;/h1&gt;
+
+&lt;p&gt;We are going to build an instagram like application using react native and this is how it is going to look like.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/react-app-votepic.gif?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Although this application is not yet completed, for your reference, the code for this app I am building is available in this &lt;a href=&quot;https://github.com/clementpeihengtan/votepic&quot;&gt;Github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;lets-get-started&quot;&gt;Let’s Get Started&lt;/h1&gt;
+
+&lt;p&gt;We will first need to create a new app. Open terminal and run these command to initialize a new project&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;react-native init votepic
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;votepic
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;install-dependencies&quot;&gt;Install Dependencies&lt;/h1&gt;
+
+&lt;p&gt;Next, install all necessary module, which will help us to build the application. We will need the modules below&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Icons for building the UX/UI
+    &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; npm install &lt;span class=&quot;nt&quot;&gt;--save&lt;/span&gt; react-native-vector-icons
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create transition between pages within the application
+    &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; npm install &lt;span class=&quot;nt&quot;&gt;--save&lt;/span&gt; react-navigation
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tools set for extended component for React
+    &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; npm install &lt;span class=&quot;nt&quot;&gt;--save&lt;/span&gt; native-base
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;For type checking
+    &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; npm install &lt;span class=&quot;nt&quot;&gt;--save&lt;/span&gt; prop-types
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Animation in page transition
+    &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; npm install &lt;span class=&quot;nt&quot;&gt;--save&lt;/span&gt; react-native-animatable
+&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; npm install &lt;span class=&quot;nt&quot;&gt;--save&lt;/span&gt; react-native-image-header-scroll-view
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;launch-the-simulator&quot;&gt;Launch the Simulator&lt;/h1&gt;
+
+&lt;p&gt;To launch the app in the simulator. Run the command below&lt;/p&gt;
+&lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; react-native run-ios
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;After launch, press &lt;kbd&gt;&amp;#8984;&lt;/kbd&gt; &lt;kbd&gt;D&lt;/kbd&gt; and select Enable Hot Reloading to prevent us developer from manually reloading everytime we make a changes.&lt;/p&gt;
+
+&lt;h1 id=&quot;data&quot;&gt;Data&lt;/h1&gt;
+
+&lt;p&gt;Let’s create some data as a sample for our application. We’re going to store all the pictures data in one file to make thing easier. In real world situation, we will need to fetch data by using API.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;At your current directory create a file called &lt;mark class=&quot;mark&quot;&gt;data.json&lt;/mark&gt; with the following content&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;profile_pic&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://images.unsplash.com/placeholder-avatars/extra-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Rina Miele&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://media.wired.com/photos/5926538eaf95806129f4f0b6/master/pass/UnsplashHP.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, guys! I am a photography enthusiast &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Food Lover&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;profile_pic&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://images.unsplash.com/placeholder-avatars/extra-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Kelsey Johnsen&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://1095.unsplash.com/img/videos/10.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, guys! I am a photography enthusiast &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Food Lover&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;profile_pic&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://images.unsplash.com/placeholder-avatars/extra-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Jessica Johns&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://i.pinimg.com/originals/57/80/0e/57800e6fd63b49c51c106bc26bbc3933.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, guys! I am a photography enthusiast &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Food Lover&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;profile_pic&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://images.unsplash.com/placeholder-avatars/extra-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;John Cobb&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://cdn-images-1.medium.com/max/2000/1*YRINRZFr0E1FRJ4JpizEMw.jpeg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, guys! I am a photography enthusiast &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Food Lover&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;profile_pic&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://images.unsplash.com/placeholder-avatars/extra-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Samuel Scrimshaw&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://assets.awwwards.com/awards/images/2013/11/wall-unsplash-26-11-11.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, guys! I am a photography enthusiast &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Food Lover&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;profile_pic&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://images.unsplash.com/placeholder-avatars/extra-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Tim Swaan&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://cdn.concreteplayground.com/content/uploads/2016/06/bikes-unsplash-bicycle-date-meghan-yabsley.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, guys! I am a photography enthusiast &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Food Lover&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;profile_pic&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://images.unsplash.com/placeholder-avatars/extra-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hollie Harmsworth&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://salemnet.vo.llnwd.net/media/cms/CW/Couples/singles/39078-man-handraised-sunset-unsplash.1200w.tn.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, guys! I am a photography enthusiast &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Food Lover&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;profile_pic&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://images.unsplash.com/placeholder-avatars/extra-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Anton Darius&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://s3.amazonaws.com/s3.imagefinder.co/uploads/2016/01/27004234/unsplash-com-photo-1453284441168-8780c9f52097.jpg&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, guys! I am a photography enthusiast &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; ood Lover&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;profile_pic&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://images.unsplash.com/placeholder-avatars/extra-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Ales Krivec&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://i.pinimg.com/736x/d1/58/6d/d1586dad8532ca2ef76f23e59263b5ab--hd-photos-free-photos.jpg&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, guys! I am a photography enthusiast &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Food Lover&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;profile_pic&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://images.unsplash.com/placeholder-avatars/extra-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Alberto Restifo&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_url&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://upload.wikimedia.org/wikipedia/commons/6/6d/City-streets-skyline-buildings_%2824326816445%29.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hi, guys! I am a photography enthusiast &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Food Lover&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;start-modifying-the-app&quot;&gt;Start Modifying the App&lt;/h1&gt;
+
+&lt;p&gt;First, create a directory called &lt;mark class=&quot;mark&quot;&gt;src&lt;/mark&gt;. In the directory, create two new directories called &lt;mark class=&quot;mark&quot;&gt;components&lt;/mark&gt; and &lt;mark class=&quot;mark&quot;&gt;tabs&lt;/mark&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;components&quot;&gt;Components&lt;/h2&gt;
+&lt;p&gt;In the component directory, create a new file called &lt;mark class=&quot;mark&quot;&gt;Card.js&lt;/mark&gt; that defines the container that display the user’s image and information.&lt;/p&gt;
+
+&lt;p&gt;The code will look like this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+import {
+    View,
+    Text,
+    Dimensions,
+    StyleSheet,
+    TouchableOpacity,
+    Image
+} from 'react-native';
+import {
+    Button,
+    Icon
+} from 'native-base';
+import FontAwesome from 'react-native-vector-icons/FontAwesome'
+
+export default class Card extends Component {
+    static propTypes = {
+        data: PropTypes.object.isRequired,
+    }
+
+    static defaultProps = {
+        upbutton: 'caret-up'
+    }
+
+    render() {
+        const {data, data: {profile_pic, name, image_url, description}, navigate} = this.props;
+        return (
+            &amp;lt;View style={styles.container}&amp;gt;
+                &amp;lt;View style={styles.image_container}&amp;gt;
+                        &amp;lt;Image source= style={styles.pp} resizeMode=&quot;stretch&quot;/&amp;gt;
+                        &amp;lt;Text style={styles.text} onPress={()=&amp;gt;navigate('Profiles',data)}&amp;gt;{name}&amp;lt;/Text&amp;gt;
+                &amp;lt;/View&amp;gt;
+                &amp;lt;TouchableOpacity style={styles.container}&amp;gt;  
+                    &amp;lt;View style={styles.pic_container}&amp;gt;
+                        &amp;lt;Image source= style={styles.image}/&amp;gt;
+                    &amp;lt;/View&amp;gt;
+                &amp;lt;/TouchableOpacity&amp;gt;
+                &amp;lt;View style={styles.footer}&amp;gt;
+                    &amp;lt;Button boarded black iconLeft light style=&amp;gt;
+                        &amp;lt;Icon name='arrow-up' /&amp;gt;
+                    &amp;lt;/Button&amp;gt;
+                &amp;lt;/View&amp;gt;
+            &amp;lt;/View&amp;gt;
+        );
+    }
+}
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        marginBottom: 2
+    },
+    image_container: {
+        flexDirection: &quot;row&quot;,
+        marginBottom: 10,
+    },
+    text : {
+        marginTop: 5,
+        marginBottom: 5,
+        fontSize: 12,
+    },
+    pp: {
+        marginRight: 10,
+        marginLeft: 10,
+        alignSelf: 'center',
+        height: 25,
+        width: 25,
+        borderWidth: 0,
+        borderRadius: 12
+    },
+    image: {
+        ...StyleSheet.absoluteFillObject,
+        width: null,
+        height: null,
+        alignItems: 'center',
+        justifyContent:'center',
+    },
+    pic_container: {
+        alignItems: 'stretch',
+        height: 250
+    },
+    upicon: {
+        alignSelf: 'center',
+        height: 25,
+        width: 25,
+        borderWidth: 1,
+        borderRadius: 5
+    },
+    footer: {
+        margin: 8, 
+        alignItems: 'stretch',
+        marginBottom: 50
+    }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And we are done for the component directory, just that easy!&lt;/p&gt;
+
+&lt;h2 id=&quot;tabs&quot;&gt;Tabs&lt;/h2&gt;
+
+&lt;p&gt;Tabs directory will contains every pages in the application, which include&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;mark class=&quot;mark&quot;&gt;Home.js&lt;/mark&gt; - Home page&lt;/li&gt;
+  &lt;li&gt;&lt;mark class=&quot;mark&quot;&gt;Profiles.js&lt;/mark&gt; - Each user’s profile&lt;/li&gt;
+  &lt;li&gt;&lt;mark class=&quot;mark&quot;&gt;Profile.js&lt;/mark&gt; - The current user’s profile&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;main-page---appjs&quot;&gt;Main page - App.js&lt;/h1&gt;
+&lt;p&gt;Before we start modifying the tabs directory, we first need to create the basic of the application, which is the foundation that will assist in the navigation between different pages.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open your &lt;mark class=&quot;mark&quot;&gt;App.js&lt;/mark&gt; file&lt;/li&gt;
+  &lt;li&gt;The first thing that we need to do, is import all the necessary modules&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;import React, { Component } from 'react';
+import {
+  Platform,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
+
+import {
+  StackNavigator,
+  TabNavigator
+} from 'react-navigation';      //To handle navigation between page
+import Icon from 'react-native-vector-icons/Ionicons'; 
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import Home from './tabs/Home';     //The home page we will create later
+import Profiles from './tabs/Profiles'; //Every user's profile page
+import Profile from './tabs/Profile'; //The current user profile page
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then we will need to add the code below&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;const Homenav = StackNavigator({
+  Home: {
+    screen: Home,
+    navigationOptions: {
+      header: null,
+    }
+  }, 
+  Profiles: {
+    screen: Profiles,
+    navigationOptions: ({navigation}) =&amp;gt; ({
+      // title: `${navigation.state.params.name}`,
+      headerStyle:{ position: 'absolute', backgroundColor: 'transparent', zIndex: 100, top: 0, left: 0, right: 0, borderBottomWidth: 0, }
+    })
+  }
+}, {
+  headerMode: 'screen'
+});
+
+const App = TabNavigator({
+  Home: {
+    screen: Homenav,
+    navigationOptions: {
+      tabBarIcon: ({tintColor, focused}) =&amp;gt; &amp;lt;Icon
+        name={focused? 'ios-home' : 'ios-home-outline'}
+        size={26}
+        style=
+      /&amp;gt;
+    }
+  },
+  Profile: {
+    screen: Profile,
+    navigationOptions: {
+      tabBarIcon: ({tintColor, focused}) =&amp;gt; &amp;lt;FontAwesome
+        name={focused? 'user-circle' : 'user-circle-o'}
+        size={26}
+        style=
+      /&amp;gt;
+    }
+  }
+},{
+  tabBarOptions: {
+    showLabel: false
+  }
+});
+
+export default App;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;homejs&quot;&gt;Home.js&lt;/h2&gt;
+&lt;p&gt;Now we have completed the basis, we can now proceed to work on the tabs&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open the &lt;mark class=&quot;mark&quot;&gt;Home.js&lt;/mark&gt; file and write the code below&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;import React, {Component} from 'react';
+import {
+    View,
+    Text,
+    ScrollView,
+    StyleSheet
+} from 'react-native'
+import {
+    Header,
+    Container
+} from 'native-base';
+
+import Card from '../components/Card';
+import info from '../../data.json';
+
+export default class Home extends Component {
+    render() {
+        const {navigate} = this.props.navigation;
+        return (
+            &amp;lt;Container style={styles.container}&amp;gt;
+                 &amp;lt;Header style={styles.header}&amp;gt;
+                    {/*&amp;lt;MainButton onPress={() =&amp;gt; navigate('DrawerOpen')}/&amp;gt;*/}
+                    &amp;lt;Text style={styles.head}&amp;gt;Votepic&amp;lt;/Text&amp;gt;
+                &amp;lt;/Header&amp;gt;
+                &amp;lt;ScrollView&amp;gt;    
+                    {info.map((data, index) =&amp;gt; &amp;lt;Card
+                    data = {data}
+                    key={index}
+                    navigate={navigate}
+                    /&amp;gt;
+                    )}
+                &amp;lt;/ScrollView&amp;gt;
+            &amp;lt;/Container&amp;gt;
+        );
+    }
+}
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#FFF'
+    },
+    header: {
+        marginTop: 15,
+        marginBottom: 10,
+        flexDirection: 'row',
+        backgroundColor: '#FFF',
+        borderBottomWidth: 1
+    },
+    head: {
+        marginTop: 8,
+        fontSize: 20,
+        justifyContent: 'center',
+        alignItems: 'center'
+    }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This file will handle creating a srollable view of list of &lt;mark class=&quot;mark&quot;&gt;Cards&lt;/mark&gt; that we created previously. Upon completion, it will look like below&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/home.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;profilesjs&quot;&gt;Profiles.js&lt;/h2&gt;
+&lt;p&gt;This page will be responsible in creating and displaying each user profile, based on what the current user has clicked.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;import React, {Component} from 'react';
+import {
+    View,
+    Text,
+    StyleSheet,
+    Image,
+    StatusBar,
+    Dimensions
+} from 'react-native';
+import {Header} from 'react-navigation';
+import * as Animatable from 'react-native-animatable';
+import HeaderImageScrollView, { TriggeringView } from 'react-native-image-header-scroll-view';
+
+export default class Profile extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {showNavTitle: false}
+    }
+    static navigationOptions = {
+        headerStyle: {
+            backgroundColor: '#FFF'
+        }
+    }
+
+    render() {
+        const {navigation, state:{params}} = this.props.navigation;
+        return (
+            &amp;lt;View style=&amp;gt;
+                &amp;lt;StatusBar barStyle=&quot;light-content&quot;/&amp;gt;
+                &amp;lt;HeaderImageScrollView
+                    maxHeight= {200}
+                    minHeight= {50}
+                    maxOverlayOpacity = {0.6}
+                    minOverlayOpacity = {0.3}
+                    fadeOutBackground
+                    renderHeader = {() =&amp;gt; &amp;lt;Image source= style={styles.image}/&amp;gt;}
+                    renderFixedForeground={() =&amp;gt; 
+                        &amp;lt;Animatable.View
+                            style={styles.navTitleView}
+                            ref = {
+                                navTitleView =&amp;gt;{
+                                    this.navTitleView = navTitleView;
+                                }}
+                        &amp;gt;
+                        &amp;lt;Text style={styles.navTitle}&amp;gt;{params.name}&amp;lt;/Text&amp;gt;
+                        &amp;lt;/Animatable.View&amp;gt;
+                    }
+                    renderForeground={() =&amp;gt;
+                    &amp;lt;View style={styles.titleContainer}&amp;gt;
+                    &amp;lt;Text style={styles.imageTitle}&amp;gt;
+                        {params.name}
+                    &amp;lt;/Text&amp;gt;
+                    &amp;lt;/View&amp;gt;}
+                &amp;gt;
+                &amp;lt;TriggeringView&amp;gt;
+                    &amp;lt;View style={styles.tab_section}&amp;gt;
+                        &amp;lt;Image source= style={styles.pp}/&amp;gt;
+                        &amp;lt;Text style={styles.sectionContent}&amp;gt;{params.name}&amp;lt;/Text&amp;gt;
+                    &amp;lt;/View&amp;gt;
+                    &amp;lt;View style={styles.tab_section}&amp;gt;
+                          &amp;lt;Text style={styles.sectionContent}&amp;gt;{params.description}&amp;lt;/Text&amp;gt;
+                    &amp;lt;/View&amp;gt;
+                &amp;lt;/TriggeringView&amp;gt;
+
+                &amp;lt;/HeaderImageScrollView&amp;gt;
+                {/*&amp;lt;View&amp;gt;
+                    &amp;lt;Image source=/&amp;gt;
+                    &amp;lt;Text&amp;gt;{params.name}&amp;lt;/Text&amp;gt;
+                &amp;lt;/View&amp;gt;
+                &amp;lt;View&amp;gt;
+                    
+                &amp;lt;/View&amp;gt;*/}
+            &amp;lt;/View&amp;gt;
+        );
+    }
+}
+
+const styles = StyleSheet.create({
+  image: {
+    height: 200,
+    width: Dimensions.get('window').width,
+    alignSelf: 'stretch',
+    resizeMode: 'cover',
+  },
+  title: {
+    fontSize: 20,
+  },
+  name: {
+    fontWeight: 'bold',
+  },
+  section: {
+    padding: 20,
+    borderBottomWidth: 1,
+    borderBottomColor: '#cccccc',
+    backgroundColor: 'white',
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  sectionContent: {
+    fontSize: 16,
+    textAlign: 'justify',
+  },
+  keywords: {
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    flexWrap: 'wrap',
+  },
+  keywordContainer: {
+    backgroundColor: '#999999',
+    borderRadius: 10,
+    margin: 10,
+    padding: 10,
+  },
+  keyword: {
+    fontSize: 16,
+    color: 'white',
+  },
+  titleContainer: {
+    flex: 1,
+    alignSelf: 'stretch',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  imageTitle: {
+    color: 'white',
+    backgroundColor: 'transparent',
+    fontSize: 24,
+  },
+  navTitleView: {
+    height: 250,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingTop: 16,
+    opacity: 0,
+  },
+  navTitle: {
+    color: 'white',
+    fontSize: 18,
+    backgroundColor: 'transparent',
+  },
+  sectionLarge: {
+    height: 600,
+  },
+  pp: {
+        marginRight: 10,
+        marginLeft: 10,
+        alignSelf: 'center',
+        height: 50,
+        width: 50,
+        borderWidth: 0,
+        borderRadius: 12
+  },
+  tab_section: {
+    flexDirection: &quot;row&quot;,
+    marginBottom: 10,
+    marginTop: 20
+  }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Upon completion, it will look like following when user click on different user name in the Home page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profiles.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;profilejs&quot;&gt;Profile.js&lt;/h2&gt;
+
+&lt;p&gt;Since this page is still in development phase, it is easy to show you guys how to create something like below using &lt;a href=&quot;https://nativebase.io/&quot;&gt;native-base&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2017-11-11-instagram-like-app-with-react-native/profile.png?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;import React, {Component} from 'react';
+import { 
+    Container, 
+    Header, 
+    Content, 
+    List, 
+    ListItem, 
+    Text 
+} from 'native-base';
+
+export default class Profile extends Component {
+    render() {
+        return (
+            &amp;lt;Container&amp;gt;
+                &amp;lt;Header&amp;gt;
+                    &amp;lt;Text&amp;gt;My Profile&amp;lt;/Text&amp;gt;
+                &amp;lt;/Header&amp;gt;
+                &amp;lt;Content&amp;gt;
+                    &amp;lt;List&amp;gt;
+                        &amp;lt;ListItem&amp;gt;
+                            &amp;lt;Text&amp;gt;Login&amp;lt;/Text&amp;gt;
+                        &amp;lt;/ListItem&amp;gt;
+                        &amp;lt;ListItem&amp;gt;
+                            &amp;lt;Text&amp;gt;Collection&amp;lt;/Text&amp;gt;
+                        &amp;lt;/ListItem&amp;gt;
+                    &amp;lt;/List&amp;gt;
+                &amp;lt;/Content&amp;gt;
+            &amp;lt;/Container&amp;gt;
+        );
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;ta-da&quot;&gt;Ta Da&lt;/h1&gt;
+&lt;p&gt;How we have a simple Instagram like application, and I called it votepic. Hope you guys learn something from this tutorial.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 11 Nov 2017 00:00:00 -0600</pubDate>
+        <link>http://clementtph.com/mediator/feature/2017/11/11/Instagram-like-application-with-react-native.html</link>
+        <guid isPermaLink="true">http://clementtph.com/mediator/feature/2017/11/11/Instagram-like-application-with-react-native.html</guid>
+        
+        
+        <category>mediator</category>
+        
+        <category>feature</category>
+        
+      </item>
+    
+      <item>
+        <title>Android App - Permutation Generator</title>
+        <description>&lt;h2 id=&quot;this-page-is-still-under-development&quot;&gt;This page is still under development.&lt;/h2&gt;
+</description>
+        <pubDate>Sun, 29 Jan 2017 00:00:00 -0600</pubDate>
+        <link>http://clementtph.com/mediator/feature/2017/01/29/androidproject.html</link>
+        <guid isPermaLink="true">http://clementtph.com/mediator/feature/2017/01/29/androidproject.html</guid>
+        
+        
+        <category>mediator</category>
+        
+        <category>feature</category>
+        
+      </item>
+    
+      <item>
+        <title>Why revamp?</title>
+        <description>&lt;p&gt;If you guys have visited my &lt;a href=&quot;https://clementpeihengtan.github.io&quot;&gt;previous website&lt;/a&gt;, you can see a huge difference between the website that I am currently working on. There are three main reason, why I choose to create a new website.&lt;/p&gt;
+
+&lt;h1 id=&quot;simplicity&quot;&gt;Simplicity&lt;/h1&gt;
+
+&lt;p&gt;First of all, I want to keep things simple, Jekyll helps me to organize my stuff, which allow me to arrange my website easily. Compare to my previous website, which is pure HTML, CSS and JavaScript, without Jekyll, liquid or any markdown language. Things get a little messy when you have to handle a bunch of pages and post in the website.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Simplicity is not the absence of clutter, that’s a consequence of simplicity. Simplicity is somehow essentially describing the purpose and place of an object and product. The absence of clutter is just a clutter-free product. That’s not simple.” ~ Jonathan Ive&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jekyll allows me to simplified my project without losing the important aspect in web development. With clear and organized structure, I am able to maintain it over the long run.&lt;/p&gt;
+
+&lt;h1 id=&quot;clarity&quot;&gt;Clarity&lt;/h1&gt;
+
+&lt;p&gt;The idea of making things clear led me to create a whole new website. The theme I previously used for my website, is quite ‘fancy’ in a sense that it looks complicated, the information is not welly presented. With this new website, I keep my things clear. Instead of putting different paragraph on different site of the page, I chose to put all my content in the center of the page. This creates consistency throughout of my web pages.&lt;/p&gt;
+
+&lt;h1 id=&quot;efficiency&quot;&gt;Efficiency&lt;/h1&gt;
+
+&lt;p&gt;Jekyll allows me to modify and add content easily. I do not need to waste time creating a whole new page. Instead, I can just add a markdown file and Jekyll will do the rest of the job for me. This safes times and reduce my workload as well.&lt;/p&gt;
+
+&lt;p&gt;However, all this advantage achieved from my hard work. Learning new things make things easier.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://clementtph.com/mediator/feature/2016/06/09/revamp.html</link>
+        <guid isPermaLink="true">http://clementtph.com/mediator/feature/2016/06/09/revamp.html</guid>
+        
+        
+        <category>mediator</category>
+        
+        <category>feature</category>
+        
+      </item>
+    
+      <item>
+        <title>Obfuscation Programming</title>
+        <description>&lt;p&gt;Recently, I came across something interesting, which is the obfuscation programming.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;What is obfuscation?&lt;/strong&gt; Obfuscation is the practice of making something hard to understand.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Obfuscation programming is usually used in encryption. How so? Obfuscation programming renames useful classes and variables, adding meaningless label to make it hard to be understand. This prevents cybercrime hacking into our device, since it is hard to decrypt this code. Only the person who creates the code know what they are doing.&lt;/p&gt;
+
+&lt;h2 id=&quot;guess-what-this-code-does&quot;&gt;Guess what this code does?&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;______&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_______&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;________:
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getattr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;__import__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__class__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__class__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__class__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__eq__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__class__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__iter__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__class__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;__name__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:________&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;___: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))(&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;___:
+                &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;___&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;lambda: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;func_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;co_lnotab&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;________&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;___&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;___&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_______&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_______&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;______&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_______&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_______&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;___&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_______&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;___&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_______&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((((((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;___&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_______&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(((((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;___&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;______&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;___: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))(&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;___:
+            &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;lambda: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;func_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;co_nlocals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;_: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;func_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;co_nlocals&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:])&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+        &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;_: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;func_code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;co_argcount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;_: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;__: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;___: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;____: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;_____: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;______: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;______&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;_______: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;nb&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;___&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_____&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;______&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_______&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;________: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;It just simply print “Hello world!”!  Shocked? I bet you are.&lt;/p&gt;
+
+&lt;p&gt;This code is written by &lt;strong&gt;&lt;a href=&quot;https://benkurtovic.com/&quot;&gt;Ben Kurtovic&lt;/a&gt;&lt;/strong&gt; for The International Obfuscated C Code Contest (IOCCC).&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://clementtph.com/mediator/feature/2016/06/08/obfuscation-programming.html</link>
+        <guid isPermaLink="true">http://clementtph.com/mediator/feature/2016/06/08/obfuscation-programming.html</guid>
+        
+        
+        <category>mediator</category>
+        
+        <category>feature</category>
+        
+      </item>
     
       <item>
         <title>How to install Ruby in Ubuntu</title>
@@ -22,41 +952,41 @@
 &lt;p&gt;Install CURL
 We need to install curl in order to install RVM.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curl&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curl&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Install RVM
 The first command import a public key into our system, the second command install RVM using curl.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gpg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keyserver&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;hkp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gnupg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;net&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;recv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;D39DC0E3&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sSL&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gpg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keyserver&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hkp&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gnupg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;net&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;recv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keys&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;D39DC0E3&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sSL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;rvm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;io&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Install Ruby Dependencies
 This command install all the dependencies for installing Ruby automatically on our system&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requirements&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requirements&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h1 id=&quot;step2-check-the-list-of-available-ruby-versions&quot;&gt;Step2-Check the list of available Ruby Versions&lt;/h1&gt;
 
 &lt;p&gt;Use the following command to check the list of ruby available.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;known&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;known&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h1 id=&quot;step3-install-ruby-version&quot;&gt;Step3-Install Ruby Version&lt;/h1&gt;
 
 &lt;p&gt;Just write the version of Ruby you want to install and hit enter using the command below
 Right now, I am going to install Ruby version 2.2.4&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h1 id=&quot;step4-setup-ruby-version-as-default&quot;&gt;Step4-Setup Ruby Version as Default&lt;/h1&gt;
 
 &lt;p&gt;RVM command enable us to set up default Ruby version to our application.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rvm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2.2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;If you are unable to set as default, try run this.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/bin/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;This command change terminal emulator preferences to allow login shell&lt;/p&gt;
 
@@ -66,15 +996,13 @@ Right now, I am going to install Ruby version 2.2.4&lt;/p&gt;
 
 &lt;p&gt;After you have set the default Ruby Version, you can check the version of Ruby you have now using the command below.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;version&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;There you go, you got the Ruby version that you want.&lt;/p&gt;
 </description>
         <pubDate>Fri, 27 May 2016 00:00:00 -0500</pubDate>
         <link>http://clementtph.com/2016/05/27/how-to-install-ruby.html</link>
         <guid isPermaLink="true">http://clementtph.com/2016/05/27/how-to-install-ruby.html</guid>
-        
-        <category>featured</category>
         
         
       </item>
@@ -104,33 +1032,46 @@ Right now, I am going to install Ruby version 2.2.4&lt;/p&gt;
     
       <item>
         <title>Reference and Pointer</title>
-        <description>&lt;p&gt;When it comes to C or C++, the most confusing parts are pointer and reference. Although it looks complicated, if you mastered them, they really helps a lot in programming as they are very powerful tools.  &lt;/p&gt;
+        <description>&lt;p&gt;When it comes to C or C++, the most confusing parts are pointer and reference. Although it looks complicated, if you mastered them, they really help a lot in programming as they are very powerful tools.&lt;/p&gt;
 
-&lt;p&gt;Reference variable is a variable that refers to another variable or object that is existed in your program.  &lt;/p&gt;
+&lt;h1 id=&quot;reference&quot;&gt;Reference&lt;/h1&gt;
+
+&lt;p&gt;Reference variable is a variable that refers to another variable or object that is existed in your program.&lt;/p&gt;
 
 &lt;p&gt;It is actually a duplicate of a variable in a memory location. Therefore, you can access the value of the variable either through the original value or the reference variable.&lt;/p&gt;
 
-&lt;p&gt;Reference cannot be later made to reference other objects once it is created  &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reference cannot be later made to reference other objects once it is created&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;References cannot be NULL&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;References cannot be NULL&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wrong&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;give&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;wrong&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;give&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reference must be initialized when declared&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Reference must be initialized when declared&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;pointer&quot;&gt;Pointer&lt;/h1&gt;
 
 &lt;p&gt;First of all, we know that variable is actually a memory location, and this location has its own address. A pointer is a variable which takes an address of another variable.&lt;/p&gt;
 
-&lt;p&gt;Pointers can be used to re-assigned
-Pointers can be null to indicate it is not pointing to any valid thing.
-Pointers need not to be initialized when it is declared.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pointers can be used to re-assigned&lt;/li&gt;
+  &lt;li&gt;Pointers can be null to indicate it is not pointing to any valid thing.&lt;/li&gt;
+  &lt;li&gt;Pointers need not to be initialized when it is declared.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Re-assigned pointer&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pointer&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -138,14 +1079,12 @@ Pointers need not to be initialized when it is declared.&lt;/p&gt;
 &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
         <pubDate>Fri, 06 May 2016 00:00:00 -0500</pubDate>
         <link>http://clementtph.com/mediator/feature/2016/05/06/reference-and-pointer.html</link>
         <guid isPermaLink="true">http://clementtph.com/mediator/feature/2016/05/06/reference-and-pointer.html</guid>
-        
-        <category>featured</category>
         
         
         <category>mediator</category>
