@@ -21,7 +21,7 @@ cover: "/assets/images/desk.jpg"
 name: 'Clement Tan'
 author: 'Clement Tan'
 disqus-shortname: clementpeihengtan
-# author_image: "/assets/images/author.jpg"
+author_image: "/assets/images/myProfile.jpg"
 
 paginate:	5
 
