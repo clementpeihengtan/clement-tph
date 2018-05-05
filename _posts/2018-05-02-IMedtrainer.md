@@ -86,8 +86,18 @@ Based on the clusters and design implications, we conducted an ideation process 
 
 ### Prototype
 
-### Cognitive Walkthrough
+Based on the result we have, we started working on the prototype and came out with the wireframe. From there we assembled all the sketches and made it into a PopApp prototype as shown below
+
+#### Wireframe 
+
+![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/wireframe.jpg?raw=true)
+
+#### PopApp Demo
+
+![](https://media.githubusercontent.com/media/clementpeihengtan/clement-tph/gh-pages/assets/article_images/2018-05-02-imedtrainer/prototype_demo.gif)
 
 ### Final Design 
+
+After going through cognitive walkthrough and heuristic evaluation, we made some modification in the prototype in order to make the final app design.
 
 ![](https://media.githubusercontent.com/media/clementpeihengtan/clement-tph/gh-pages/assets/article_images/2018-05-02-imedtrainer/Imedtrainer_demo.gif)
