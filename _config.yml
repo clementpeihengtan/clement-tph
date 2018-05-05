@@ -14,14 +14,14 @@ markdown: kramdown
 
 email: clementtph@gmail.com
 #blog logo
-logo: "/assets/images/ct_logo.jpg"
+logo: "/assets/images/ct_logo-min.jpg"
 # blog cover
 cover: "/assets/images/desk.jpg"
 
 name: 'Clement Tan'
 author: 'Clement Tan'
 disqus-shortname: clementpeihengtan
-author_image: "/assets/images/myProfile.jpg"
+author_image: "/assets/images/myProfile-min.jpg"
 
 paginate:	5
 
