@@ -29,7 +29,7 @@ Sha Li | YiHan Wu | Ian Beh | Joseph Dasuki | Noah Biniek
 
 ## Demo 
 
-![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/IMedtrainerGif.gif?raw=true)
+![](https://media.githubusercontent.com/media/clementpeihengtan/clement-tph/gh-pages/assets/article_images/2018-05-02-imedtrainer/Imedtrainer_demo.gif)
 
 
 
@@ -78,18 +78,11 @@ We managed to categorize the open note into different clusters.
 
 <!--![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/training_cluster.jpg?raw=true)-->
 
-### Design Implication
-
-We formulated 4 major design implications to keep us on track through out the development phase. The implications are 
-
-- Offer student sufficient practice especially in interpreting medical images
-- Shorten the training period or speed up the learning process
-- Make the training easily accessible
-- Emphasis on good feedbacks 
-
 ### Ideation
 
 Based on the clusters and design implications, we conducted an ideation process where we listed down all the practical and wild ideas. We came out with more than 100 ideas. From there, we removed some of the unfeasible one and group them into different categories as shown below
+
+![](https://github.com/clementpeihengtan/clement-tph/blob/gh-pages/assets/article_images/2018-05-02-imedtrainer/implicationandideation.jpg?raw=true)
 
 ### Prototype
 
@@ -97,3 +90,4 @@ Based on the clusters and design implications, we conducted an ideation process 
 
 ### Final Design 
 
+![](https://media.githubusercontent.com/media/clementpeihengtan/clement-tph/gh-pages/assets/article_images/2018-05-02-imedtrainer/Imedtrainer_demo.gif)
