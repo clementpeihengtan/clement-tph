@@ -99,3 +99,5 @@ Based on the result we have, we started working on the prototype and came out wi
 After going through cognitive walkthrough and heuristic evaluation, we made some modification in the prototype in order to make the final app design.
 
 ![](https://media.githubusercontent.com/media/clementpeihengtan/clement-tph/gh-pages/assets/article_images/2018-05-02-imedtrainer/Imedtrainer_demo.gif)
+
+For more information about the code, visit my github [here](https://github.com/clementpeihengtan/IMedtrainer)
