@@ -19,9 +19,9 @@ permalink: /resume/
 
 ## Skills  
 
-I am experienced in C#, Java and JavaScript. I have been working with technologies like Microsoft Visual Studio, Microsoft Visual Studio, MySQL Workbench. 
+I am experienced in full stack development including ASP.NET development. I have been working with technologies like Microsoft Visual Studio and Microsoft SQL Server Management. 
 
-I also self learnt different JavaScript Framework, from Node.js, React.js, Express.js and D3.js. I have created IOS application and Web application using React.js which are available on my Github. 
+I am also familiar with mobile development including Android development and React-native development. I self learnt different JavaScript Framework, from Node.js, React.js, Express.js and D3.js. I have created IOS application and Web application using React.js which are available on my Github. 
 
 Besides coding, I also do some photo editing and design using Adobe Photoshop CS6.
 
