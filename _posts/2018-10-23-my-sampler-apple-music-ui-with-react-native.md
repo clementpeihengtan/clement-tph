@@ -84,7 +84,7 @@ There is a confusion in the gesture of holing the image to swipe up and down and
 
 Here is the final result of the feature
 
-![](/assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/demo-my-sampler-res.gif)
+![](https://media.githubusercontent.com/media/clementpeihengtan/clement-tph/gh-pages/assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/demo-my-sampler-res.gif)
 
 <center><strong>Left - </strong>From Jason Yuans's design, <strong>Right - </strong>Created using react-native with animated API</center>
 

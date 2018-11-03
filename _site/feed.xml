@@ -5,9 +5,9 @@
     <description>The thought of machine...</description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Nov 2018 22:07:17 -0500</pubDate>
-    <lastBuildDate>Fri, 02 Nov 2018 22:07:17 -0500</lastBuildDate>
-    <generator>Jekyll v3.7.3</generator>
+    <pubDate>Fri, 02 Nov 2018 22:18:35 -0500</pubDate>
+    <lastBuildDate>Fri, 02 Nov 2018 22:18:35 -0500</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>My Sampler - Apple Music Redesigned wiht React Native</title>
@@ -94,7 +94,7 @@ The author, &lt;a href=&quot;https://jasonyuan.design/&quot;&gt;Jason Yuan&lt;/a
 
 &lt;p&gt;Here is the final result of the feature&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/demo-my-sampler-res.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://media.githubusercontent.com/media/clementpeihengtan/clement-tph/gh-pages/assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/demo-my-sampler-res.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;center&gt;&lt;strong&gt;Left - &lt;/strong&gt;From Jason Yuans's design, &lt;strong&gt;Right - &lt;/strong&gt;Created using react-native with animated API&lt;/center&gt;
 
