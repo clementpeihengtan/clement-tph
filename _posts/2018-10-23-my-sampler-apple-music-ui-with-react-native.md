@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Sampler - Apple Music Redesigned wiht React Native"
+title:  "My Sampler - Apple Music Redesigned with React Native"
 date:   2018-10-23
 categories: mediator feature
 image: /assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/apple-music-background-web.png
