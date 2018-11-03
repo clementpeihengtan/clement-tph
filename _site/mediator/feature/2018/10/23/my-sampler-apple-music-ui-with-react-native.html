@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>My Sampler - Apple Music Redesigned wiht React Native</title>
+  <meta name="description" content="As a developer, I am inspired when I discover creative designs that helps to solve real world problem.">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+  
+  <meta property="og:site_name" content="Code">
+  <meta property="og:title" content="My Sampler - Apple Music Redesigned wiht React Native">
+  
+  <meta property="og:description" content="As a developer, I am inspired when I discover creative designs that helps to solve real world problem.">
+  
+  <meta property="og:image" content="http://localhost:4000/assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/apple-music-background-web.png">
+  <meta property="og:url" content="http://localhost:4000/mediator/feature/2018/10/23/my-sampler-apple-music-ui-with-react-native.html">
+  <meta property="og:type" content="blog">
+  <meta property="article:published_time" content="2018-10-23T00:00:00-05:00">
+
+  <link rel="canonical" href="http://localhost:4000/mediator/feature/2018/10/23/my-sampler-apple-music-ui-with-react-native.html">
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css">
+</head>
+
+  <body itemscope itemtype="http://schema.org/Article">
+    <!-- header start -->
+
+<a href="http://localhost:4000" class="logo-readium"><span class="logo" style="background-image: url(http://localhost:4000/assets/images/ct_logo-min.jpg)"></span></a>
+
+<!-- header end -->
+
+    <main class="content" role="main">
+      <article class="post">
+        
+        <div class="article-image">
+          <div class="post-image-image" style="background-image: url(http://localhost:4000/assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/apple-music-background-web.png)">
+            Article Image
+          </div>
+          <div class="post-image-image2" style="background-image: url(http://localhost:4000/assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/apple-music-background-web.png)">
+            Article Image
+          </div>
+          <div class="post-meta">
+            <h1 class="post-title">My Sampler - Apple Music Redesigned wiht React Native</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url(/assets/images/myProfile-min.jpg)">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Clement Tan</h4>
+              on
+              <time datetime="2018-10-23 00:00">23 Oct 2018</time>
+              <!-- , tagged on <span class="post-tag-">, <a href="/tag/"></a></span> -->
+            </div>
+            <div style="text-align:center">
+              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <p>As a developer, I am inspired when I discover creative designs that helps to solve real world problem.</p>
+
+<h2 id="caught-my-attention">Caught my Attention</h2>
+
+<p>Recently I have been actively studying and reading articles related to UI/UX design at <a href="'https://uxdesign.cc/'">medium</a>, I came across this interesting <a href="https://medium.com/startup-grind/i-got-rejected-by-apple-music-so-i-redesigned-it-b7e2e4dc64bf">article</a>.
+The author, <a href="https://jasonyuan.design/">Jason Yuan</a> carried out an unsolicited redesign of apple music. He pointed out a lots of suggestion and provided samples of new apple music designs that are simple and yet intriguing.</p>
+
+<h2 id="my-sampler">My Sampler</h2>
+
+<p>One of the feature, I would love to talk about is the My Sampler feature. This feature really caught my attention, because it addressed and solved the problem of how different type of people explore their music preferences in a creative way.</p>
+
+<h2 id="why-not-make-it-a-real-product">Why not make it a real product?</h2>
+
+<p>Being an inquisitive developers, I would like to make this a real feature that can be used by people.</p>
+
+<blockquote>
+  <p>“There are many things that seem impossible only so long as one does not attempt them.” 
+― André Gide, Autumn Leaves</p>
+</blockquote>
+
+<p>I gave it a try.</p>
+
+<h2 id="aim">Aim</h2>
+<p>This project allows me to further enhance my understanding about react-native especially react native animation which is a powerful tools that allows the creation of fun and splendid user interface.</p>
+
+<h2 id="analyze">Analyze</h2>
+
+<p>On first load, we see the image of the artist, name of the artist and the name of the song as below</p>
+
+<p><img src="/assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/apple-music-my-sampler.png" alt=""></p>
+
+<p>There are a few things happen when the image is touched and hold</p>
+
+<p><img src="/assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/apple-music-my-sampler-start-animation.png" alt=""></p>
+
+<ul>
+  <li>The image enlarged.</li>
+  <li>A ‘spinner’ like thing started to spin ina clockwise manner</li>
+  <li>The ‘+’ and ‘x’ sign expand from the center and fade in through translation from the y-axis</li>
+  <li>The background become blurred.</li>
+</ul>
+
+<p>All these happen at the same time. Here we can make our choices by swiping the circle down or up to the ‘+’ or ‘x’ sign.</p>
+
+<h2 id="work-in-progress">Work In Progress</h2>
+
+<p>When I am working on this project, I faced a couple of challenges.</p>
+
+<ol>
+  <li>There are no react native library that provides the spinner like animation.</li>
+  <li>Figuring out how to animate different layer</li>
+  <li>Prevent multiple gesture happen at the same time.</li>
+</ol>
+
+<p>How I solve all of them?</p>
+
+<h2 id="solution">Solution</h2>
+
+<h3 id="problem-1---spinner-like-animation">Problem 1 - Spinner like animation</h3>
+
+<p>I cut the round circle vertically to create 2 half images. Then, I created 2 semicircles overlay on top of each other and placed them in the left half of the image. Let’s call the first semicircle A and the other one B. I first animate both A and B to spin until both fully shown, we stop A’s animation and continue B’s animation untl it is fully covering the circle. This create a perfect spinning animation.</p>
+
+<p>The trick here would be handling the zIndex of each layers at different time. For example during the first half of the animation, the left half of the image should be at the highest index, when A and B is shown it’s zIndex has to be lowered, so that B can overlay on top of the left half image.</p>
+
+<p>Below is a demonstration on how it works.</p>
+
+<p data-height="758" data-theme-id="0" data-slug-hash="qJwpww" data-default-tab="result" data-user="clement_peiheng_tan" data-pen-title="qJwpww" class="codepen">See the Pen <a href="https://codepen.io/clement_peiheng_tan/pen/qJwpww/">qJwpww</a> by Clement tan  (<a href="https://codepen.io/clement_peiheng_tan">@clement_peiheng_tan</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async="" src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<p><br></p>
+
+<h3 id="problem-2---animation-of-layer">Problem 2 - Animation of layer</h3>
+
+<p>By utilizing <code class="highlighter-rouge">Animated.Parallel</code>, we can run multiple animation at the same time. This allows us the fired up all the events when the user touch the image, including expanding the ‘+’ and ‘x’ icon, expanding the image and start the spinning animation. This problem allows me to get further understanding on how animated api work in react native.</p>
+
+<h3 id="problem-3---multiple-gestures-event-handler">Problem 3 - Multiple Gestures Event handler</h3>
+
+<p>There is a confusion in the gesture of holing the image to swipe up and down and the horizontal scroll. I solved this issue by disabling the horizontal scroll when user hold and swipe up and down. This is achived by letting the child component to pass a value to parent indicationg the user has pressed the imasge and the parent has to disable the horizontal scroll. When the touch is release, the horizontal scroll animation is reenabled.</p>
+
+<h2 id="final">Final</h2>
+
+<p>Here is the final result of the feature</p>
+
+<p><img src="/assets/article_images/2018-10-23-my-sampler-apple-music-ui-with-react-native/demo-my-sampler-res.gif" alt=""></p>
+
+<center>
+<strong>Left - </strong>From Jason Yuans's design, <strong>Right - </strong>Created using react-native with animated API</center>
+
+<h2 id="changes-in-the-future">Changes in the future</h2>
+
+<p>There are some minor details that have not been implemented.</p>
+
+<ol>
+  <li>The red area when the image is swipe down.</li>
+  <li>The blur effect should take over the whole page including the navigation bar</li>
+  <li>Light shadow under the image</li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Through this project, I have a better understanding of react native animated API and how to handle multiple animation at the same time within component and between parent and child component.</p>
+
+<p>Hope you guys enjoy it. Feel free to contact me through my <a href="'https://www.linkedin.com/in/clement-pei-heng-tan-b84889105/'">Linkedin</a> or <a href="'https://www.facebook.com/tan.clement.52'">Facebook</a>, would love to get more opinion from all the talented people out there.</p>
+
+
+        </section>
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'clementpeihengtan'; // required: replace example with your forum shortname
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + 'disqus_shortname' + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+            
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+        
+      </article>
+    </main>
+    <!-- footer start -->
+
+<footer class="site-footer">
+    <div class="inner">
+         <section class="copyright">© 2018 <a href="mailto:clementtph@gmail.com">Clement Tan</a> • Powered by Jekyll using the Mediator Theme.</section>
+         <div class="custom-links">
+           
+             
+                 <a class="icon-twitter" href="https://twitter.com/TPHClement" title="Follow me on twitter">
+                   <i class="fa fa-twitter"></i>
+                 </a>
+                   ·  
+               
+           
+             
+                 <a class="icon-facebook" href="https://www.facebook.com/tan.clement.52" title="Connect with me facebook">
+                   <i class="fa fa-facebook"></i>
+                 </a>
+                   ·  
+               
+           
+             
+                 <a class="icon-github" href="https://github.com/clementpeihengtan" title="Fork me on github">
+                   <i class="fa fa-github"></i>
+                 </a>
+                   ·  
+               
+           
+             
+                 <a class="icon-instagram" href="https://www.instagram.com/tan_clement/" title="Follow me on instagram">
+                   <i class="fa fa-instagram"></i>
+                 </a>
+                   ·  
+               
+           
+             
+                 <a class="icon-linkedin" href="https://www.linkedin.com/in/clement-pei-heng-tan-b84889105" title="Add me on linkedin">
+                   <i class="fa fa-linkedin"></i>
+                 </a>
+                   ·  
+               
+           
+         </div>
+    </div>
+</footer>
+
+<!-- footer end -->
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/index.js"></script>
+<script type="text/javascript" src="/assets/js/readingTime.min.js"></script>
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    var $window = $(window),
+    $image = $('.post-image-image, .teaserimage-image');
+    
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+          .css('opacity', 1-Math.max(top/700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+  });
+}(jQuery));
+</script>
+
+
+  </body>
+</html>

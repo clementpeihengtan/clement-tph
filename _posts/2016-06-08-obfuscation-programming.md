@@ -4,6 +4,7 @@ title: "Obfuscation Programming"
 date: 2016-06-08
 categories: mediator feature
 image: /assets/article_images/2016-06-08-obfuscated-programming/obfuscation-programming.jpg
+published: false
 ---
 
 Recently, I came across something interesting, which is the obfuscation programming. 

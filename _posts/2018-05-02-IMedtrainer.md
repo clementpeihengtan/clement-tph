@@ -6,7 +6,7 @@ categories: mediator feature
 image: /assets/article_images/2018-05-02-imedtrainer/medicalimage.jpg
 ---
 
-## About
+## About 
 
 This is a project from User Interface Design and Implementation's class project(CSci5115), where I learned about the process of research process and research design. The project, IMedtrainer is inspired by human perceptual learning research conducted by our teammate, [Sha Li](https://www.researchgate.net/profile/Sha_Li38). IMedtrainer aims to provide a mobile platform for medical student to perform practice in interpreting medical outside class period and curricular training. 
 
